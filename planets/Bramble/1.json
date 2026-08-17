@@ -1,0 +1,124 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "starSystem": "Future",
+    "Bramble": {
+        "dimension": {
+            "fogDensity": 3,
+            "linksTo": "EntranceNode",
+            "radius": 700,
+            "vinePrefab": "none",
+            "allowedEntrances": [4],
+            "fogTint": {
+                "r": 80,
+                "g": 80,
+                "b": 80
+            }
+        },
+        "nodes": [
+            {
+                "position": {
+                    "x": 300,
+                    "y": 0,
+                    "z": 204
+                },
+                "name": "east1",
+                "scale": 1,
+                "preventRecursionCrash": true,
+                "hasFogLight": false,
+                "linksTo": "1"
+            },
+            {
+                "position": {
+                    "x": 0,
+                    "y": 306,
+                    "z": 201
+                },
+                "name": "north1",
+                "scale": 1,
+                "preventRecursionCrash": true,
+                "hasFogLight": false,
+                "linksTo": "2"
+            },
+            {
+                "position": {
+                    "x": -312,
+                    "y": 0,
+                    "z": 200
+                },
+                "name": "west1",
+                "scale": 1,
+                "preventRecursionCrash": true,
+                "hasFogLight": false,
+                "linksTo": "1"
+            },
+            {
+                "position": {
+                    "x": 0,
+                    "y": -303,
+                    "z": 199
+                },
+                "name": "south1",
+                "scale": 1,
+                "preventRecursionCrash": true,
+                "hasFogLight": false,
+                "linksTo": "1"
+            }
+        ]
+    },
+    "Volumes": {
+        "interferenceVolumes": [
+            {
+                "position": {"x": 0,"y": 0,"z": 0},
+                "radius": 800
+            }
+        ],
+        "forces": {
+            "directionalVolumes": [
+                {
+                    "force": 12,
+                    "normal": {"x": 0,"y": -1,"z": 0},
+                    "position": {"x": 0,"y": -5,"z": -250},
+                    "shape": {
+                        "type": "box",
+                        "size": {"x": 50,"y": 20,"z": 50}
+                    }
+                }
+            ]
+        },
+        "revealVolumes": [
+            {
+                "position": {"x": 0,"y": 0,"z": -250},
+                "radius": 60,
+                "revealOn": "observe",
+                "reveals": [
+                    "BrambleShuttle"
+                ]
+            }
+        ]
+    },
+    "Props": {
+        "details": [
+            {
+                "position": {"x": 0,"y": -10,"z": -250},
+                "assetBundle": "planets/Models/platform",
+                "path": "Assets/Platform.prefab",
+                "stretch": {"x": 50,"y": 10,"z": 50}
+            }
+        ],
+        "shuttles": [
+            {
+                "position": {"x": 7.214146, "y": -5, "z": -251.8486},
+                "rotation": {"x": 0, "y": 322.2135, "z": 0},
+                "id": "1"
+            }
+        ]
+    },
+    "Orbit": {
+        "isStatic": true,
+        "staticPosition": {
+            "x": -20000,
+            "y": 0,
+            "z": 0
+        }
+    }
+}

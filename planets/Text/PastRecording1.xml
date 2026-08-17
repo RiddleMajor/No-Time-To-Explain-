@@ -1,0 +1,47 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+    <NameField>RECORDING</NameField>
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>Bouderi: Personal recording! I may have made a discovery regarding a radioactive output from our technology.</Page>
+        </Dialogue>
+        <DialogueTarget>1</DialogueTarget>
+    </DialogueNode>
+
+
+    <DialogueNode>
+        <Name>1</Name>
+        <Dialogue>
+            <Page>Bouderi: It is in its early stages but using a prototype, I was able to detect trace amounts of radiation in numerous pieces of technology!</Page>
+        </Dialogue>
+        <DialogueTarget>2</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>2</Name>
+        <Dialogue>
+            <Page>Bouderi: I will tell Pictus first and we will look further into the cause of this, I'm sure he'll be interested.</Page>
+        </Dialogue>
+        <DialogueTarget>3</DialogueTarget>
+    </DialogueNode>
+    
+    <DialogueNode>
+        <Name>3</Name>
+        <Dialogue>
+            <Page>Bouderi: ...Personal recording number two...</Page>
+        </Dialogue>
+        <DialogueTarget>4</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>4</Name>
+        <Dialogue>
+            <Page>Bouderi: My notions were dismissed due to a lack of need or interest. Not much to do now, perhaps Vesca could use some help on the farm.</Page>
+        </Dialogue>
+        <RevealFacts><FactID>Bouderi</FactID></RevealFacts>
+    </DialogueNode>
+
+</DialogueTree>

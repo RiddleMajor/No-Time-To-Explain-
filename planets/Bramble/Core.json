@@ -1,0 +1,100 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "starSystem": "Future",
+    "Bramble": {
+        "nodes": [
+            {
+                "position": {"x": -1.433021, "y": 1.417814, "z": -66.80135},
+                "rotation": {"x": 332.727, "y": 275.3042, "z": 176.4518},
+                "scale": 0.6,
+                "preventRecursionCrash": true,
+                "possibleExits": [1],
+                "linksTo": "Final",
+                "name": "CoreNode"
+            }
+        ]
+    },
+    "Props": {
+        "details": [
+            {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "alignRadial": true,
+                "keepLoaded": true,
+                "scale": 60,
+                "assetBundle": "planets/Models/core",
+                "path": "Assets/core.prefab"
+            },
+            {
+                "position": {"x": -0.02234081, "y": 9.599865, "z": -0.04397136},
+                "rotation": {"x": 359.6947, "y": 13.38878, "z": 0.07354056},
+                "assetBundle": "planets/Models/crystal",
+                "path": "Assets/Crystal.prefab",
+                "scale": 1,
+                "item": {
+                    "name": "Purified Crystal",
+                    "itemType": "pcrystal",
+                    "colliderRadius": 2,
+                    "interactRange": 3,
+                    "pickupFact": "CrystalSpotted"
+                }
+            }
+        ]
+    },
+    "AmbientLights": [
+        {
+            "tint": {
+                "r": 100,
+                "g": 150,
+                "b": 120
+            },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "intensity": 0.2,
+            "outerRadius": 500,
+            "innerRadius": 0
+        }
+    ],
+    "Volumes": {
+        "revealVolumes": [
+            {
+                "radius": 300,
+                "revealOn": "enter",
+                "reveals": [
+                    "MadeToCore"
+                ]
+            }
+        ],
+        "mapRestrictionVolumes": [
+            {
+                "radius": 300
+            }
+        ],
+        "audioVolumes": [
+            {
+                "radius": 300,
+                "audio": "planets/Music/Components of Fate.mp3",
+                "clipSelection": "sequential",
+                "priority": 5,
+                "track": "music",
+                "loop": true,
+                "volume": 1,
+                "fadeSeconds": 2
+            }
+        ]
+    },
+    "Orbit": {
+        "isStatic": true,
+        "staticPosition": {
+            "x": -0,
+            "y": -60000,
+            "z": 0
+        }
+    }
+}

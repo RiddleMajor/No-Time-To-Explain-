@@ -1,0 +1,33 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+    <NameField>RECORDING</NameField>
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>Brevipes: Delica, here you are; a generation in the making!</Page>
+        </Dialogue>
+        <SetPersistentCondition>FutureRecording</SetPersistentCondition>
+        <DialogueTarget>1</DialogueTarget>
+    </DialogueNode>
+
+
+    <DialogueNode>
+        <Name>1</Name>
+        <Dialogue>
+            <Page>Polytricha: Mellea couldn't get any use from it but hopefully we will.</Page>
+        </Dialogue>
+        <DialogueTarget>2</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>2</Name>
+        <Dialogue>
+            <Page>Delica: Thank you for all this, I hope all of us can make some use out of it!</Page>
+        </Dialogue>
+    </DialogueNode>
+    
+
+
+</DialogueTree>

@@ -1,0 +1,25 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/addon_manifest_schema.json",
+    "popupMessage": "We recommend turning on 'Freeze time while talking to others. Please excuse any bugs and have fun ::)'",
+    "credits": [
+        "Created by Riddle Major and Colourfullcat",
+        "Riddle Major#Programmer",
+        "Riddle Major#Modeler",
+        "Riddle Major#Technical Designer",
+        "Colourfullcat#Writer",
+        "Colourfullcat#Creative Designer",
+        "Colourfullcat#Composer",
+        "Colourfullcat#Art Design",
+        "Huge thanks to the Outer Wilds modding discord server for everything!",
+        "Another thanks to the creators of the various assets from the internet!",
+        "Special thanks to Ernesto, the Magic Talking Anglerfish for gracing us all with their presence"
+    ],
+    "gameOver": [
+        {
+            "text": "You disrupted the effects of the asteroid, altering the timeline to become what could have been.",
+            "condition": "ADDInserted",
+            "creditsType": "final"
+        }
+    ],
+    "subtitlePath": "planets/Images/No-Time-to-Waste_img-removebg-preview.png"
+}

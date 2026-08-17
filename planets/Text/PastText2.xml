@@ -1,0 +1,35 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+
+<TextBlock>
+    <ID>1</ID>
+    <Text>Malva: Do you really think another species snuck past us to steal our spare oxygen and staffs?</Text>
+</TextBlock>
+
+<TextBlock>
+    <ID>2</ID>
+    <ParentID>1</ParentID>
+    <Text>Vicia: It makes the most sense, they couldn't have just floated away...</Text>
+</TextBlock>
+
+<TextBlock>
+    <ID>3</ID>
+    <ParentID>2</ParentID>
+    <Text>Malva: It is unsettling, I know. Perhaps we will be able to make another expedition and even meet this potentially aquatic people!</Text>
+</TextBlock>
+
+<TextBlock>
+    <ID>4</ID>
+    <ParentID>3</ParentID>
+    <Text>Vicia: I admire your optimism, Malva.</Text>
+</TextBlock>
+
+<ShipLogConditions>
+    <RevealFact>
+        <FactID>StolenEquipment1</FactID>
+        <Condition>4</Condition>
+    </RevealFact>
+</ShipLogConditions>
+
+</NomaiObject>

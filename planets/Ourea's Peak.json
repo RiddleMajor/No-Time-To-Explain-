@@ -1,0 +1,322 @@
+{
+    "name": "Ourea's Peak",
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "starSystem": "Kronos' Inferno",
+    "canShowOnTitle": true,
+    "Base": {
+        "surfaceSize": 700,
+        "surfaceGravity": 14
+    },
+    "Orbit": {
+        "primaryBody": "The Blazing Sea",
+        "semiMajorAxis": 9000,
+        "trueAnomaly": -100
+    },
+    "AmbientLights": [
+        {
+            "tint": {
+                "r": 100,
+                "g": 150,
+                "b": 120
+            },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "intensity": 1,
+            "outerRadius": 800,
+            "innerRadius": 200
+        }
+    ],
+    "Atmosphere": {
+        "atmosphereTint": {
+            "r": 100,
+            "g": 150,
+            "b": 120
+        },
+        "atmosphereSunIntensity": 0.7,
+        "hasOxygen": true,
+        "hasTrees": true,
+        "size": 690,
+        "fogSize": 690,
+        "fogDensity": 1,
+        "fogTint": {
+            "r": 80,
+            "g": 100,
+            "b": 90
+        },
+        "useAtmosphereShader": true
+    },
+    "MapMarker": {
+        "enabled": true
+    },
+    "Bramble": {
+        "nodes": [
+            {
+                "isSeed": true,
+                "position": {"x": -279.8448, "y": -359.4447, "z": -70.89364},
+                "rotation": {"x": 28.18933, "y": 116.805, "z": 207.067},
+                "linksTo": "Empty",
+                "scale": 2
+            }
+        ]
+    },
+    "ShipLog": {
+        "xmlFile": "planets/Shiplogs/Peaks.xml",
+        "spriteFolder": "planets/Images",
+        "mapMode": {
+            "offset": 1.5,
+            "scale": 3,
+            "revealedSprite": "planets/Images/OureaPeak-removebg-preview.png"
+        }
+    },
+    "Props": {
+        "details": [
+            {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "alignRadial": true,
+                "keepLoaded": true,
+                "scale": 350,
+                "assetBundle": "planets/Models/ourea's peak",
+                "path": "Assets/Ourea's Peak.prefab"
+            },
+            {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "alignRadial": true,
+                "keepLoaded": false,
+                "scale": 350,
+                "assetBundle": "planets/Models/folliage_o",
+                "path": "Assets/folliage_o.prefab"
+            },
+            {
+                "parentPath": "Sector/Ourea's Peak/VaultDoor/Wall_Corner_BOTH (3)",
+                "position": {"x": 0,"y": 0,"z": 0.3239999},
+                "rotation": {"x": 0,"y": 180,"z": 0},
+                "isRelativeToParent": true,
+                "assetBundle": "planets/Models/scroll",
+                "path": "Assets/WS_Scroll_Hole.prefab",
+                "itemSocket": {
+                    "itemType": "Scroll",
+                    "position": {"x": 0,"y": 1.2,"z": 0},
+                    "rotation": {"x": 0,"y": 180,"z": 0},
+                    "colliderRadius": 1,
+                    "interactRange": 2,
+                    "isRelativeToParent": true,
+                    "insertCondition": "VaultKeyed"
+                }
+            },
+            {
+                "position": {"x": 301.5763, "y": 252.8037, "z": -185.0534},
+                "rotation": {"x": 323.5653, "y": 127.2444, "z": 34.24263},
+                "assetBundle": "planets/Models/heart",
+                "path": "Assets/Heart.prefab",
+                "scale": 1,
+                "item": {
+                    "name": "Malleable Heart",
+                    "itemType": "mheart",
+                    "pickupFact": "HeartFound"
+                }
+            }
+        ],
+        "shuttles": [
+            {
+                "position": {"x": 228.235, "y": 373.7632, "z": 157.0989},
+                "rotation": {"x": 34.03007, "y": 79.77763, "z": 14.19733},
+                "id": "1"
+            }
+        ],
+        "translatorText": [
+            {
+                "position": {"x": 220.2669, "y": 362.3336, "z": 192.6972},
+                "rotation": {"x": 15.61176, "y": 116.769, "z": 35.69831},
+                "type": "recorder",
+                "xmlFile": "planets/Text/TreasureHuntStart.xml"
+            },
+            {
+                "position": {"x": 281.2486, "y": 330.8484, "z": 170.0065},
+                "rotation": {"x": 49.3706, "y": 74.351, "z": 189.7512},
+                "type": "scroll",
+                "xmlFile": "planets/Text/THCLUES/Clue1.xml"
+            },
+            {
+                "position": {"x": 260.5302, "y": 29.6808, "z": 377.0487},
+                "rotation": {"x": 358.7407, "y": 32.47, "z": 274.5692},
+                "type": "wall",
+                "xmlFile": "planets/Text/THCLUES/Clue2.xml"
+            },
+            {
+                "position": {"x": -580.0843, "y": 58.78335, "z": -156.1129},
+                "rotation": {"x": 74.00542, "y": 347.6626, "z": 4},
+                "type": "scroll",
+                "xmlFile": "planets/Text/THCLUES/Clue3.xml"
+            },
+            {
+                "position": {"x": 239.2644, "y": 384.7016, "z": 163.2573},
+                "rotation": {"x": 44.482, "y": 228.2829, "z": 305.3311},
+                "type": "scroll",
+                "xmlFile": "planets/Text/THCLUES/Clue5.xml"
+            },
+            {
+                "position": {"x": 249.0811, "y": 343.0314, "z": 192.8591},
+                "rotation": {"x": 324.3273, "y": 271.4814, "z": 334.0415},
+                "type": "scroll",
+                "xmlFile": "planets/Text/PastText2.xml"
+            },
+            {
+                "position": {"x": -580.8906, "y": 49.89009, "z": -147.144},
+                "rotation": {"x": 63.43656, "y": 194.3891, "z": 280.7938},
+                "type": "recorder",
+                "xmlFile": "planets/Text/PastText4.xml"
+            },
+            {
+                "position": {"x": 365.8766, "y": 311.0138, "z": -486.0848},
+                "rotation": {"x": 355.8273, "y": 42.81108, "z": 293.7114},
+                "type": "whiteboard",
+                "xmlFile": "planets/Text/PastText1.xml"
+            },
+            {
+                "position": {"x": -274.0016, "y": -359.059, "z": -87.95305},
+                "rotation": {"x": 8.783353, "y": 148.1516, "z": 217.5846},
+                "type": "scroll",
+                "xmlFile": "planets/Text/PastText3.xml"
+            }
+        ],
+        "campfires": [
+            {
+                "position": {"x": 332.1402, "y": 259.2076, "z": -196.059},
+                "rotation": {"x": 358.7051, "y": 212.131, "z": 49.11526},
+                "initialState": "unlit"
+            },
+            {
+                "position": {"x": -189.8191, "y": -56.32743, "z": 420.6605},
+                "rotation": {"x": 334.4326, "y": 248.4908, "z": 262.6406},
+                "initialState": "unlit"
+            },
+            {
+                "position": {"x": -715.5468, "y": -12.66455, "z": -43.58492},
+                "rotation": {"x": 31.11528, "y": 354.8054, "z": 89.71593},
+                "initialState": "unlit"
+            }
+        ]
+    },
+    "Volumes": {
+        "forces": {
+            "directionalVolumes": [
+                {
+                    "force": 12,
+                    "shape": {
+                        "type": "box",
+                        "size": {"x": 15,"y": 10,"z": 30}
+                    },
+                    "position": {"x": 308.4066, "y": 256.0479, "z": -190.1538},
+                    "rotation": {"x": 326.629, "y": 118.3024, "z": 39.22488},
+                    "normal": {"x": 0,"y": -1,"z": 0},
+                    "playGravityCrystalAudio": true
+                }
+            ]
+        },
+        "revealVolumes": [
+            {
+                "radius": 600,
+                "revealOn": "observe",
+                "reveals": [
+                    "CampsSpotted"
+                ]
+            },
+            {
+                "position": {"x": -279.8448, "y": -359.4447, "z": -70.89364},
+                "radius": 40,
+                "revealOn": "observe",
+                "shape": {
+                    "useShape": false
+                },
+                "reveals": [
+                    "SeedSpotted"
+                ]
+            },
+            {
+                "position": {"x": 321.6945, "y": 267.6126, "z": -199.3098},
+                "radius": 20,
+                "revealOn": "enter",
+                "reveals": [
+                    "VaultSpotted"
+                ]
+            },
+            {
+                "position": {"x": 311.1223, "y": 259.9766, "z": -192.4799},
+                "radius": 10,
+                "revealOn": "enter",
+                "reveals": [
+                    "VaultEntered"
+                ]
+            }
+        ],
+        "audioVolumes": [
+            {
+                "radius": 800,
+                "audio": "planets/Music/Ourea's canvas.mp3",
+                "clipSelection": "sequential",
+                "track": "music",
+                "loop": true,
+                "volume": 0.8,
+                "fadeSeconds": 5
+            },
+            {
+                "radius": 45,
+                "audio": "OW NM Nomai Ruins 081718 AP",
+                "clipSelection": "sequential",
+                "priority": 5,
+                "track": "music",
+                "loop": true,
+                "volume": 1,
+                "fadeSeconds": 2,
+                "position": {"x": 240.8381, "y": 353.528, "z": 182.5039},
+                "rotation": {"x": 1.227, "y": 140.6306, "z": 40.84269}
+            },
+            {
+                "radius": 40,
+                "audio": "OW NM Nomai Ruins 081718 AP",
+                "clipSelection": "sequential",
+                "priority": 5,
+                "track": "music",
+                "loop": true,
+                "volume": 1,
+                "fadeSeconds": 2,
+                "position": {"x": -192.9522, "y": 21.93714, "z": 422.474},
+                "rotation": {"x": 8.848851, "y": 245.1179, "z": 272.824}
+            },
+            {
+                "radius": 40,
+                "audio": "OW NM Nomai Ruins 081718 AP",
+                "clipSelection": "sequential",
+                "priority": 5,
+                "track": "music",
+                "loop": true,
+                "volume": 1,
+                "fadeSeconds": 2,
+                "position": {"x": 373.852, "y": 307.9199, "z": -479.9356},
+                "rotation": {"x": 66.35397, "y": 135.2897, "z": 0.5938294}
+            },
+            {
+                "radius": 20,
+                "audio": "planets/Music/Components of Fate.mp3",
+                "clipSelection": "sequential",
+                "priority": 5,
+                "track": "music",
+                "loop": true,
+                "volume": 1,
+                "fadeSeconds": 2,
+                "position": {"x": 311.1223, "y": 259.9766, "z": -192.4799}
+            }
+        ]
+    }
+}

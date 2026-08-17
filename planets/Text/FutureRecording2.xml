@@ -1,0 +1,32 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+    <NameField>RECORDING</NameField>
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>Ponderosa: The farm isn't doing very well today, the coral seems barren of life.</Page>
+        </Dialogue>
+        <DialogueTarget>1</DialogueTarget>
+    </DialogueNode>
+
+
+    <DialogueNode>
+        <Name>1</Name>
+        <Dialogue>
+            <Page>Matsutake: It seems so...</Page>
+        </Dialogue>
+        <DialogueTarget>2</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>2</Name>
+        <Dialogue>
+            <Page>Ponderosa: We should transfer more plants over, maybe it'll encourage more life to gather.</Page>
+        </Dialogue>
+    </DialogueNode>
+    
+
+
+</DialogueTree>

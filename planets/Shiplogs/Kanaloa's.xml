@@ -1,0 +1,153 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>Kanaloa's Depths</ID> 
+    <Entry>
+        <ID>RadiationVial</ID>
+        <Name>Radiation Vial</Name>
+        <Curiosity>Asteroid</Curiosity>
+        <RumorFact>
+            <ID>Bouderi</ID>
+            <SourceID>UnderwaterVillages</SourceID>
+            <RumorName>Radiation Notes</RumorName>
+            <Text>I found recordings about someone named Bouderi making a discovery that was dismissed by his peers.</Text>
+        </RumorFact>
+        <RumorFact>
+            <ID>Calveryi</ID>
+            <SourceID>UnderwaterVillages</SourceID>
+            <RumorName>Radiation Notes</RumorName>
+            <Text>I found recordings of someone named Calveryi following up on Bouderi's research.</Text>
+        </RumorFact>
+        <RumorFact>
+            <ID>Brevipes</ID>
+            <SourceID>Dome</SourceID>
+            <RumorName>Radiation Notes</RumorName>
+            <Text>I spoke to Brevipes in the past and told him about the notes on radiation.</Text>
+        </RumorFact>
+        <ExploreFact>
+            <ID>FutureDomeVial</ID>
+            <Text>I entered the dome in the future after speaking to Brevipes and found a vial of some sort of gas in good condition.</Text>
+        </ExploreFact>
+    </Entry>
+    <Entry>
+        <ID>Asteroid</ID>
+        <Name>Asteroid</Name>
+        <Curiosity>Asteroid</Curiosity>
+        <IsCuriosity />
+        <ExploreFact>
+            <ID>AsteroidSpotted</ID>
+            <Text>There's an asteroid at the bottom of Kanaloa's Rest.</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>Crystals</ID>
+            <Text>The asteroid is cracked and has a green light spilling out of it.</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>DeviceFailed</ID>
+            <Text>It seems that some villagers that were sent into the past tried to create a device to reverse the asteroid's effects, but failed</Text>
+        </ExploreFact>
+        <Entry>
+        <ID>AssemblyTable</ID>
+        <Name>Assembly Table</Name>
+        <RumorFact>
+            <ID>VialTable</ID>
+            <SourceID>RadiationVial</SourceID>
+            <Text>The vial looks like it can fit on the table.</Text>
+        </RumorFact>
+        <RumorFact>
+            <ID>HeartTable</ID>
+            <SourceID>MalleableHeart</SourceID>
+            <Text>The heart looks like it can fit on the table.</Text>
+        </RumorFact>
+        <RumorFact>
+            <ID>CrystalTable</ID>
+            <SourceID>PurifiedCrystal</SourceID>
+            <Text>The crystal looks like it can fit on the table.</Text>
+        </RumorFact>
+        <RumorFact>
+            <ID>TableUses</ID>
+            <SourceID>UnderwaterVillages</SourceID>
+            <Text>I found recordings about a table used for both assembly and medical purposes.</Text>
+        </RumorFact>
+        <ExploreFact>
+            <ID>TableFound</ID>
+            <Text>I found a table with mechanical assistance tools.</Text>
+        </ExploreFact>
+    </Entry>
+    </Entry>
+
+    
+
+    <Entry>
+        <ID>Dome</ID>
+        <Name>Dome</Name>
+        <Curiosity>Asteroid</Curiosity>
+        <RumorFact>
+            <ID>DomeVillages</ID>
+            <SourceID>UnderwaterVillages</SourceID>
+            <Text>There's a large dome near one of the villages</Text>
+        </RumorFact>
+        <ExploreFact>
+            <ID>DomeSpotted</ID>
+            <Text>There's a large dome near an underwater village.</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>ScreenSpotted</ID>
+            <Text>The door is locked but a screen beside it allows me to speak to a village inhabitant named "Brevipes"</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>BrevipesParanoid</ID>
+            <Text>Brevipes seemed paranoid of sharing the same fate of their ancestors.</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>BrevipesAsteroid</ID>
+            <Text>Brevipes mentioned an asteroid but I can't see any nearby.</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>EnteredDome</ID>
+            <Text>I was able to enter the dome in the future through a hole in the glass but there's no sign of life inside.</Text>
+        </ExploreFact>
+    </Entry>
+
+    <Entry>
+        <ID>UnderwaterVillages</ID>
+        <Name>Underwater Villages</Name>
+        <Curiosity>Asteroid</Curiosity>
+        <RumorFact>
+            <ID>VillagesRumor</ID>
+            <SourceID>KanaloasSurface</SourceID>
+            <Text>There might be something in the water that the Nomai never saw</Text>
+        </RumorFact>
+        <ExploreFact>
+            <ID>VillagesSpotted</ID>
+            <Text>There are villages under the water on Kanaloa's Depths.</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>NameFound</ID>
+            <Text>I found a recording talking about malfunctioning technology, the species that lived here are called "Chronalopods".</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>NomaiStolen</ID>
+            <Text>I found a recording talking about some village inhabitants stealing equipment from a few Nomai that landed on one of the largest islands.</Text>
+        </ExploreFact>
+    </Entry>
+
+    <Entry>
+        <ID>KanaloasSurface</ID>
+        <Name>Kanaloa's Surface</Name>
+        <Curiosity>Asteroid</Curiosity>
+        <ExploreFact>
+            <ID>SurfaceSpotted</ID>
+            <Text>The surface appears to be made up of floating rock islands.</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>SurfaceText</ID>
+            <Text>I found Nomai text on a large island talking about wanting to explore underwater, before their equipment disappeared.</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>Nursery</ID>
+            <Text>I found a nursery building semisubmerged within the water.</Text>
+        </ExploreFact>
+    </Entry>
+    
+    
+</AstroObjectEntry>

@@ -1,0 +1,39 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+
+<TextBlock>
+    <ID>1</ID>
+    <Text>Echium: Lanaria, my Dearest: for you I have devised and adventure that I believe you will be most fond of.</Text>
+</TextBlock>
+
+<TextBlock>
+    <ID>2</ID>
+    <ParentID>1</ParentID>
+    <Text>Lanaria: Echium? What is this, a game? I do hope it has more thought out rules this time.</Text>
+</TextBlock>
+
+<TextBlock>
+    <ID>3</ID>
+    <ParentID>2</ParentID>
+    <Text>Echium: Not just any game; a Treasure Hunt! I have discreetly laid out clues around this planet to a gift you could not refuse. I wish you luck, my dearest!</Text>
+</TextBlock>
+
+<TextBlock>
+    <ID>4</ID>
+    <ParentID>3</ParentID>
+    <Text>Echium: Your first clue is: Within the pedestal upon which you belong.</Text>
+</TextBlock>
+
+<ShipLogConditions>
+    <RevealFact>
+        <FactID>HuntRecording</FactID>
+        <Condition>3</Condition>
+    </RevealFact>
+    <RevealFact>
+        <FactID>Clue1</FactID>
+        <Condition>4</Condition>
+    </RevealFact>
+</ShipLogConditions>
+
+</NomaiObject>

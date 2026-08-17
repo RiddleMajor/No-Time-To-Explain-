@@ -1,0 +1,25 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+
+<TextBlock>
+    <ID>1</ID>
+    <Text>Freesia: I have observed something incredible atop the fully-formed ice: A house!</Text>
+</TextBlock>
+
+<TextBlock>
+    <ID>2</ID>
+    <ParentID>1</ParentID>
+    <Text>Freesia: I appears as if another intelligent lifeform has attempted to adapt to their new environment and decided to live above the ice, likely to acquire more sunlight and thus, heat.</Text>
+</TextBlock>
+
+<TextBlock>
+    <ID>3</ID>
+    <ParentID>2</ParentID>
+    <Text>Freesia: I have not observed any living being directly... But perhaps none of this will matter. Borago and Paeonia have still not returned from their trip. It has been long enough for me to fear the worst. Perhaps I should talk to Protea about my discoveries, at least then we wont feel so alone...</Text>
+</TextBlock>
+
+
+
+
+</NomaiObject>

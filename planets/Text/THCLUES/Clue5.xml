@@ -1,0 +1,13 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+<TextBlock>
+    <ID>1</ID>
+    <Text>And finally, take this scroll and travel to the bottom of the twin-flat peaks to find your prize.</Text>
+</TextBlock>
+<ShipLogConditions>
+    <RevealFact>
+        <FactID>Clue6</FactID>
+        <Condition>1</Condition>
+    </RevealFact>
+</ShipLogConditions>
+</NomaiObject>

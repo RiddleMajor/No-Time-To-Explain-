@@ -1,0 +1,53 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+    <NameField>Ernesto</NameField>
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>Oh hey, congrats on making it this far.</Page>
+        </Dialogue>
+        <SetCondition>TalkedToErnesto</SetCondition>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>Ernes-</Text>
+                <DialogueTarget>1</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+
+    <DialogueNode>
+        <Name>1</Name>
+        <Dialogue>
+            <Page>SHUT IT! I need to explain a couple things: first up, if you go straight on behind me, you'll get to where you need to be. Once you're done, come back and go through the seed below us to get outta here.</Page>
+            <Page>I sure hope you got that 'cause I'm not saying it again! Now if you'll excuse me I have something very important to stare at.</Page>
+        </Dialogue>
+        <RevealFacts><FactID>ErnestoInfo</FactID></RevealFacts>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>Wait, Ernesto. Why are there so many conveniently placed platforms in these seeds?</Text>
+                <DialogueTarget>2</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+
+    <DialogueNode>
+        <Name>2</Name>
+        <Dialogue>
+            <Page>How else would you figure out which way's North? I know you flipped your ship around a couple times, dummy.</Page>
+        </Dialogue>
+    </DialogueNode>
+
+
+    <DialogueNode>
+        <Name>Done</Name>
+        <EntryCondition>TalkedToErnesto</EntryCondition>
+        <Dialogue>
+            <Page>How dare you interrupt my staring!</Page>
+        </Dialogue>
+        <RevealFacts><FactID>ErnestoFriends</FactID></RevealFacts>
+    </DialogueNode>
+</DialogueTree>

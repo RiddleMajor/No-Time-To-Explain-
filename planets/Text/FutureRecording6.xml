@@ -1,0 +1,49 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+    <NameField>RECORDING</NameField>
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>Delica: cough cough Is it recording?</Page>
+        </Dialogue>
+        <DialogueTarget>1</DialogueTarget>
+    </DialogueNode>
+
+
+    <DialogueNode>
+        <Name>1</Name>
+        <Dialogue>
+            <Page>Brevipes: Yes, my dear sister. Do not strain yourself!</Page>
+        </Dialogue>
+        <SetPersistentCondition>FutureRecording</SetPersistentCondition>
+        <DialogueTarget>2</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>2</Name>
+        <Dialogue>
+            <Page>Delica: cough I appear to have contracted a disease unlike anything I have encountered before. I am now attempting to record its symptoms in the case of my death...</Page>
+        </Dialogue>
+        <DialogueTarget>3</DialogueTarget>
+    </DialogueNode>
+    
+    <DialogueNode>
+        <Name>3</Name>
+        <Dialogue>
+            <Page>Delica: First comes a near constant nausea, then a periodical cough. I've begun feeling temperatures drastically higher than a normal fever and cough cough... Shortness of breath.</Page>
+        </Dialogue>
+        <DialogueTarget>4</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>4</Name>
+        <Dialogue>
+            <Page>Delica: I was the first to show symptoms but, I'm told Ponderosa has reported feeling nauseous... I have a theory that this is being caused by the asteroid but I cannot be certain. If I'm right, may we be spared the worst.</Page>
+        </Dialogue>
+    </DialogueNode>
+
+
+
+</DialogueTree>

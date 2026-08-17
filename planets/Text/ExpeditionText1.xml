@@ -1,0 +1,30 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+
+<TextBlock>
+    <ID>1</ID>
+    <Text>Vicia: This rock is so unusual, it appears to float on the surface of this planet's waters!</Text>
+</TextBlock>
+
+<TextBlock>
+    <ID>2</ID>
+    <ParentID>1</ParentID>
+    <Text>Thimble: Indeed, I have never seen anything like it. Perhaps we should take some back with us.</Text>
+</TextBlock>
+
+<TextBlock>
+    <ID>3</ID>
+    <ParentID>2</ParentID>
+    <Text>Malva: It would be best for us to properly explore beneath sea level before we make plans to take anything back with us.</Text>
+</TextBlock>
+
+<TextBlock>
+    <ID>4</ID>
+    <ParentID>3</ParentID>
+    <Text>Vicia: Let's get ready then. We should have plenty of oxygen in our tanks to thoroughly explore the bottom.</Text>
+</TextBlock>
+
+
+
+</NomaiObject>

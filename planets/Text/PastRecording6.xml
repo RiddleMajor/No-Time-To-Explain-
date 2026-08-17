@@ -1,0 +1,33 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+    <NameField>RECORDING</NameField>
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>Bouderi: I wish I could've known my parents, but I guess that's just the way things are for each generation...</Page>
+        </Dialogue>
+        <DialogueTarget>1</DialogueTarget>
+    </DialogueNode>
+
+
+    <DialogueNode>
+        <Name>1</Name>
+        <Dialogue>
+            <Page>Bouderi: We've done a lot of good for ourselves and our future children, maybe thanks to these recordings they can better know us as good role models... As parents.</Page>
+        </Dialogue>
+        <DialogueTarget>2</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>2</Name>
+        <Dialogue>
+            <Page>Bouderi: Hopefully mine will turn out alright, when I have them...</Page>
+        </Dialogue>
+        <RevealFacts><FactID>Nursery</FactID></RevealFacts>
+    </DialogueNode>
+    
+
+
+</DialogueTree>

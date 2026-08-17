@@ -1,0 +1,107 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "starSystem": "Future",
+    "Bramble": {
+        "dimension": {
+            "fogDensity": 2,
+            "linksTo": "EntranceNode",
+            "radius": 700,
+            "vinePrefab": "none",
+            "allowedEntrances": [4],
+            "fogTint": {
+                "r": 80,
+                "g": 80,
+                "b": 80
+            }
+        },
+        "nodes": [
+            {
+                "position": {
+                    "x": 301,
+                    "y": 0,
+                    "z": 213
+                },
+                "name": "east3",
+                "scale": 1,
+                "preventRecursionCrash": true,
+                "hasFogLight": false,
+                "linksTo": "1"
+            },
+            {
+                "position": {
+                    "x": -299,
+                    "y": 311,
+                    "z": 196
+                },
+                "name": "northwest3",
+                "scale": 1,
+                "preventRecursionCrash": true,
+                "hasFogLight": false,
+                "linksTo": "1"
+            },
+            {
+                "position": {
+                    "x": 0,
+                    "y": -300,
+                    "z": 204
+                },
+                "name": "south3",
+                "scale": 1,
+                "preventRecursionCrash": true,
+                "hasFogLight": false,
+                "linksTo": "4"
+            },
+            {
+                "position": {
+                    "x": 304,
+                    "y": -299,
+                    "z": 202
+                },
+                "name": "southeast3",
+                "scale": 1,
+                "preventRecursionCrash": true,
+                "hasFogLight": false,
+                "linksTo": "1"
+            }
+        ]
+    },
+    "Volumes": {
+        "interferenceVolumes": [
+            {
+                "position": {"x": 0,"y": 0,"z": 0},
+                "radius": 800
+            }
+        ],
+        "forces": {
+            "directionalVolumes": [
+                {
+                    "force": 12,
+                    "normal": {"x": 0,"y": -1,"z": 0},
+                    "position": {"x": 0,"y": -5,"z": -250},
+                    "shape": {
+                        "type": "box",
+                        "size": {"x": 50,"y": 20,"z": 50}
+                    }
+                }
+            ]
+        }
+    },
+    "Props": {
+        "details": [
+            {
+                "position": {"x": 0,"y": -10,"z": -250},
+                "assetBundle": "planets/Models/platform",
+                "path": "Assets/Platform.prefab",
+                "stretch": {"x": 50,"y": 10,"z": 50}
+            }
+        ]
+    },
+    "Orbit": {
+        "isStatic": true,
+        "staticPosition": {
+            "x": -20000,
+            "y": -20000,
+            "z": 0
+        }
+    }
+}

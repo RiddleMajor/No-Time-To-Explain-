@@ -1,0 +1,65 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "The Blazing Sea",
+    "starSystem": "Future",
+    "Base": {
+        "centerOfSolarSystem": true,
+        "gravityFallOff": "inverseSquared",
+        "surfaceSize": 3000,
+        "surfaceGravity": 75
+    },
+    "MapMarker": {
+        "enabled": true
+    },
+    "ShipLog": {
+        "xmlFile": "planets/Shiplogs/The Blazing Sea.xml",
+        "spriteFolder": "planets/Images",
+        "mapMode": {
+            "scale": 4,
+            "revealedSprite": "BlazingSea2-removebg-preview"
+        }
+    },
+    "Star": {
+        "lifespan": 11,
+        "hasStarController": true,
+        "endTint": {
+            "r": 250,
+            "g": 0,
+            "b": 0
+        },
+        "tint": {
+            "r": 280,
+            "g": 100,
+            "b": 20
+        },
+        "size": 3000,
+        "solarLuminosity": 1.1,
+        "curve": [
+            {
+                "time": 0,
+                "value": 0.9
+            },
+            {
+                "time": 11,
+                "value": 1.5
+            }
+        ]
+    },
+    "Spawn": {
+        "playerSpawnPoints": [
+			{
+				"id": "PlayerSpawnPlace",
+				"offset": {"x": 9000,"y": 0,"z": 0},
+				"isDefault": true,
+				"startWithSuit": true
+			}
+		],
+        "shipSpawnPoints": [
+			{
+				"id": "SpawnPlace",
+				"offset": {"x": 9000,"y": 0,"z": 0},
+				"isDefault": false
+			}
+		]
+    }
+}

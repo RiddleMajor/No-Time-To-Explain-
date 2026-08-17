@@ -1,0 +1,57 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+    <NameField>RECORDING</NameField>
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>Mellea: Friends, a new species has come to visit us! Look what I have brought...</Page>
+        </Dialogue>
+        <DialogueTarget>1</DialogueTarget>
+    </DialogueNode>
+
+
+    <DialogueNode>
+        <Name>1</Name>
+        <Dialogue>
+            <Page>Vesca: Mellea! While this is an incredible discovery, but we don't know their intentions. They could've killed you!</Page>
+        </Dialogue>
+        <DialogueTarget>2</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>2</Name>
+        <Dialogue>
+            <Page>Mellea: Worry not, Vesca! I was discreet. They've been left unable to explore our waters. Now look at this technology...</Page>
+        </Dialogue>
+        <DialogueTarget>3</DialogueTarget>
+    </DialogueNode>
+    
+    <DialogueNode>
+        <Name>3</Name>
+        <Dialogue>
+            <Page>Bouderi: This is beautiful... How does it all work? What is it for? Are we sure we can't talk to them?</Page>
+        </Dialogue>
+        <DialogueTarget>4</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>4</Name>
+        <Dialogue>
+            <Page>Pictus: It could be dangerous - I gather they've come from our planetary neighbour, let them return to whence they came.</Page>
+        </Dialogue>
+        <DialogueTarget>5</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>5</Name>
+        <Dialogue>
+            <Page>Auricula: I suppose that's it then, finally we see what we've all been dreaming of and everyone's too scared to go and say hi! Well, I've got work to do. I suspect you all do too.</Page>
+        </Dialogue>
+        <RevealFacts><FactID>NomaiStolen</FactID></RevealFacts>
+    </DialogueNode>
+
+
+
+</DialogueTree>

@@ -1,0 +1,43 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+    <NameField>RECORDING</NameField>
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>Brevipes: ...It is only me, Polytricha and calveryi left. After they got ill, the other's disappeared one day, without a trace.</Page>
+        </Dialogue>
+        <SetPersistentCondition>FutureRecording</SetPersistentCondition>
+        <DialogueTarget>1</DialogueTarget>
+    </DialogueNode>
+
+
+    <DialogueNode>
+        <Name>1</Name>
+        <Dialogue>
+            <Page>Brevipes: I can barely remember their names, it's like they've been erased from time! It's all that damned asteroid's fault... It's begun cracking, there's a faint green glow inside.</Page>
+        </Dialogue>
+        <DialogueTarget>2</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>2</Name>
+        <Dialogue>
+            <Page>Brevipes: I don't know what's going to happen except that sooner or later we'll all get sick and suffer the same fate...</Page>
+        </Dialogue>
+        <DialogueTarget>3</DialogueTarget>
+    </DialogueNode>
+    
+    <DialogueNode>
+        <Name>3</Name>
+        <Dialogue>
+            <Page>Brevipes: But perhaps I can create a device to reverse the effects of the asteroid. I must try!</Page>
+        </Dialogue>
+        <RevealFacts><FactID>DeviceFailed</FactID></RevealFacts>
+    </DialogueNode>
+
+
+
+
+</DialogueTree>

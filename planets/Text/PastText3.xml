@@ -1,0 +1,39 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+
+<TextBlock>
+    <ID>1</ID>
+    <Text>Thimble: This is the strange seed I found, It appears to be deeply rooted into the ground.</Text>
+</TextBlock>
+
+<TextBlock>
+    <ID>2</ID>
+    <ParentID>1</ParentID>
+    <Text>Helenium: It's like nothing I've ever seen before - and this blinding light... If only we had a camera small enough to fit inside!</Text>
+</TextBlock>
+
+<TextBlock>
+    <ID>3</ID>
+    <ParentID>2</ParentID>
+    <Text>Thimble: Its branches appear to resemble that of Bramble Plants. Hypothesis; It is an evolved version of the plant we know!</Text>
+</TextBlock>
+
+<TextBlock>
+    <ID>4</ID>
+    <ParentID>3</ParentID>
+    <Text>Helenium: I suppose we will have to see what it does as it grows.</Text>
+</TextBlock>
+
+<ShipLogConditions>
+    <RevealFact>
+        <FactID>SeedWritings</FactID>
+        <Condition>4</Condition>
+    </RevealFact>
+    <RevealFact>
+        <FactID>SeedNomai</FactID>
+        <Condition>1</Condition>
+    </RevealFact>
+</ShipLogConditions>
+
+</NomaiObject>

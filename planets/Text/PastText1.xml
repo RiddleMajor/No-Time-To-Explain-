@@ -1,0 +1,60 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+
+<TextBlock>
+    <ID>1</ID>
+    <Text>Sonchus: Thank you for coming, I believe you will be pleased with my discovery.</Text>
+</TextBlock>
+
+<TextBlock>
+    <ID>2</ID>
+    <ParentID>1</ParentID>
+    <Text>Helenium: I still don't understand what can be so ground-breaking as to bring me all the way over here.</Text>
+</TextBlock>
+
+<TextBlock>
+    <ID>3</ID>
+    <ParentID>2</ParentID>
+    <Text>Sonchus: Here, I was able to take scans of the planet revealing a series of tunnels beneath the surface! It gets blurry the further down I scan but these tunnels may lead directly into the planet's core.</Text>
+</TextBlock>
+
+<TextBlock>
+    <ID>4</ID>
+    <ParentID>3</ParentID>
+    <Text>Sonchus: Furthermore, I have a hypothesis that the strange seed we found may be burrowing towards to core!</Text>
+</TextBlock>
+
+<TextBlock>
+    <ID>5</ID>
+    <ParentID>4</ParentID>
+    <Text>Helenium: Perhaps the seed needs something within it... Have you mapped out these tunnels? I would very much like to explore them.</Text>
+</TextBlock>
+
+<TextBlock>
+    <ID>6</ID>
+    <ParentID>5</ParentID>
+    <Text>Sonchus: I have, the closest route is below this mountain, but we'll still have to dig quite far. To get to the core from here you must go...North, North-West, South, South-East, West, then continue West.</Text>
+</TextBlock>
+<ShipLogConditions>
+    <RevealFact>
+        <FactID>TunnelWriting1</FactID>
+        <Condition>2</Condition>
+    </RevealFact>
+    <RevealFact>
+        <FactID>TunnelWriting2</FactID>
+        <Condition>2</Condition>
+    </RevealFact>
+    <RevealFact>
+        <FactID>TunnelDirections</FactID>
+        <Condition>6</Condition>
+    </RevealFact>
+    <RevealFact>
+        <FactID>BrambleCore</FactID>
+        <Condition>4</Condition>
+    </RevealFact>
+</ShipLogConditions>
+
+
+
+</NomaiObject>

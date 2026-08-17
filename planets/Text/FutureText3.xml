@@ -1,0 +1,30 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+
+<TextBlock>
+    <ID>1</ID>
+    <Text>Freesia: It has been some time since Paeonia and Borago have entered the Bramble seed. I hope they are okay.</Text>
+</TextBlock>
+
+<TextBlock>
+    <ID>2</ID>
+    <ParentID>1</ParentID>
+    <Text>Freesia: In wait of their return, I have decided to log the changes in our liquidy neighbor:</Text>
+</TextBlock>
+
+<TextBlock>
+    <ID>3</ID>
+    <ParentID>2</ParentID>
+    <Text>Freesia: Since the asteroid landed, the planet seems to be drifting form its ordinary orbit. the force of impact may have been strong enough that it altered its trajectory around the sun. I calculate that both planets in this system will not come into contact with one another, luckily.</Text>
+</TextBlock>
+
+<TextBlock>
+    <ID>4</ID>
+    <ParentID>3</ParentID>
+    <Text>Freesia: Ice also appears to be forming on the surface, likely because of the drastic decrease in temperature. I fear any life below the surface will die off after such an environmental shift...</Text>
+</TextBlock>
+
+
+
+</NomaiObject>

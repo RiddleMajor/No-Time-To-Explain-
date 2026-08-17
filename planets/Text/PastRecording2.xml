@@ -1,0 +1,47 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+    <NameField>RECORDING</NameField>
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>Vesca: Mellea, when you listen to this, can we discuss some ideas I had to expand the farm? Talk soon.</Page>
+        </Dialogue>
+        <DialogueTarget>1</DialogueTarget>
+    </DialogueNode>
+
+
+    <DialogueNode>
+        <Name>1</Name>
+        <Dialogue>
+            <Page>Vesca: Oh hey Bouderi, what's up? You look defeated...</Page>
+        </Dialogue>
+        <DialogueTarget>2</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>2</Name>
+        <Dialogue>
+            <Page>Bouderi: Hi Vesca, I don't really want to talk about it. Did you want any help?</Page>
+        </Dialogue>
+        <DialogueTarget>3</DialogueTarget>
+    </DialogueNode>
+    
+    <DialogueNode>
+        <Name>3</Name>
+        <Dialogue>
+            <Page>Vesca: Just some daily chores, really. You can give me a hand if you want - IF you tell me what's bothering you.</Page>
+        </Dialogue>
+        <DialogueTarget>4</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>4</Name>
+        <Dialogue>
+            <Page>Bouderi: Fine... Is that still recording?</Page>
+        </Dialogue>
+    </DialogueNode>
+
+
+</DialogueTree>

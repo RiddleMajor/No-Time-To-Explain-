@@ -1,0 +1,342 @@
+{
+    "name": "Kanaloa's Rest",
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "starSystem": "Future",
+    "canShowOnTitle": true,
+    "Base": {
+        "surfaceSize": 700,
+        "surfaceGravity": 14
+    },
+    "Orbit": {
+        "primaryBody": "The Blazing Sea",
+        "semiMajorAxis": 13000,
+        "trueAnomaly": 30
+    },
+    "AmbientLights": [
+        {
+            "tint": {
+                "r": 100,
+                "g": 100,
+                "b": 150
+            },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "intensity": 1,
+            "outerRadius": 800,
+            "innerRadius": 0
+        }
+    ],
+    "Atmosphere": {
+        "atmosphereTint": {
+            "r": 80,
+            "g": 80,
+            "b": 130
+        },
+        "atmosphereSunIntensity": 0.3,
+        "hasOxygen": true,
+        "size": 800,
+        "fogSize": 800,
+        "fogDensity": 1,
+        "fogTint": {
+            "r": 80,
+            "g": 80,
+            "b": 100
+        },
+        "useAtmosphereShader": true
+    },
+    "Water": {
+        "size": 434,
+        "tint": {
+            "r": 80,
+            "g": 120,
+            "b": 140
+        },
+        "density": 15,
+        "buoyancy": 1.05
+    },
+    "MapMarker": {
+        "enabled": true
+    },
+    "ShipLog": {
+        "xmlFile": "planets/Shiplogs/Kanaloa's.xml",
+        "spriteFolder": "planets/Images",
+        "mapMode": {
+            "offset": 1.5,
+            "scale": 2.5,
+            "revealedSprite": "planets/Images/Water2.png"
+        }
+    },
+    "Props": {
+        "details": [
+            {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "alignRadial": true,
+                "keepLoaded": true,
+                "scale": 350,
+                "assetBundle": "planets/Models/kanaloa's rest",
+                "path": "Assets/Kanaloa's Rest.prefab"
+            },
+            {
+                "position": {"x": -121.6964, "y": 48.5099, "z": 87.864},
+                "rotation": {"x": 38.2791, "y": 24.8692, "z": 71.4854},
+                "scale": 1,
+                "assetBundle": "planets/Models/machine",
+                "path": "Assets/machine.prefab"
+            },
+            {
+                "parentPath": "Sector/machine/Cube.001",
+                "isRelativeToParent": true,
+                "scale": 0.01,
+                "position": {"x": 0,"y": 0,"z": 0.012},
+                "itemSocket": {
+                    "itemType": "pcrystal",
+                    "colliderRadius": 1,
+                    "interactRange": 2,
+                    "isRelativeToParent": true,
+                    "rotation": {"x": 90,"y": 0,"z": 0},
+                    "insertCondition": "CrystalInsert"
+                    
+                }
+            },
+            {
+                "parentPath": "Sector/machine/Cube.002",
+                "isRelativeToParent": true,
+                "scale": 0.01,
+                "position": {"x": 0,"y": 0,"z": 0.012},
+                "itemSocket": {
+                    "itemType": "mheart",
+                    "colliderRadius": 1,
+                    "interactRange": 2,
+                    "isRelativeToParent": true,
+                    "rotation": {"x": 90,"y": 0,"z": 0},
+                    "insertCondition": "HeartInsert"
+                    
+                }
+            },
+            {
+                "parentPath": "Sector/machine/Cube.002",
+                "isRelativeToParent": true,
+                "scale": 0.01,
+                "activationCondition": "MachineOn",
+                "rename": "addsocket",
+                "position": {"x": 0,"y": 0,"z": 0.012},
+                "itemSocket": {
+                    "itemType": "add",
+                    "colliderRadius": 1,
+                    "interactRange": 2,
+                    "isRelativeToParent": true,
+                    "rotation": {"x": 90,"y": 0,"z": 0}
+                    
+                }
+            },
+            {
+                "parentPath": "Sector/machine/Cube.003",
+                "isRelativeToParent": true,
+                "scale": 0.01,
+                "position": {"x": 0,"y": 0,"z": 0.012},
+                "itemSocket": {
+                    "itemType": "rvial",
+                    "colliderRadius": 1,
+                    "interactRange": 2,
+                    "isRelativeToParent": true,
+                    "rotation": {"x": 90,"y": 0,"z": 0},
+                    "insertCondition": "VialInsert"
+                    
+                }
+            },
+            {
+                "position": {"x": -127.6061, "y": 57.40207, "z": 99.12122},
+                "rotation": {"x": 305.5445, "y": 146, "z": 71.93932},
+                "activationCondition": "BrevipesConvinced",
+                "assetBundle": "planets/Models/vial",
+                "path": "Assets/Vial.prefab",
+                "scale": 1,
+                "item": {
+                    "name": "Radioactive Vial",
+                    "itemType": "rvial",
+                    "pickupFact": "FutureDomeVial"
+                }
+            },
+            {
+                "scale": 1,
+                "assetBundle": "planets/Models/add",
+                "path": "Assets/add.prefab",
+                "activationCondition": "MachineOn",
+                "item": {
+                    "name": "Asteroid Dampening Device",
+                    "itemType": "add",
+                    "holdOffset": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0.2
+                    },
+                    "pathToInitialSocket": "Sector/machine/Cube.002/addsocket"
+                }
+            },
+            {
+                "scale": 1,
+                "position": {"x": 113.0334, "y": -13.8492, "z": -135.0092},
+                "itemSocket": {
+                    "itemType": "add",
+                    "colliderRadius": 10,
+                    "interactRange": 3,
+                    "insertCondition": "ADDInserted"
+                }
+            }
+        ],
+        "dialogue": [
+            {
+                "position": {"x": -141.176, "y": -1.590139, "z": 83.27966},
+                "radius": 1,
+                "xmlFile": "planets/Text/FutureRecording2.xml"
+            },
+            {
+                "position": {"x": -65.34151, "y": 66.32382, "z": -128.8536},
+                "radius": 1,
+                "xmlFile": "planets/Text/FutureRecording2.xml"
+            },
+            {
+                "position": {"x": -126.1011, "y": 17.54245, "z": -94.92975},
+                "radius": 1,
+                "xmlFile": "planets/Text/FutureRecording1.xml"
+            },
+            {
+                "position": {"x": -134.8761, "y": 50.51054, "z": 86.78834},
+                "radius": 1,
+                "xmlFile": "planets/Text/FutureRecording6.xml"
+            },
+            {
+                "position": {"x": -124.7203, "y": 33.15205, "z": 109.8806},
+                "radius": 1,
+                "xmlFile": "planets/Text/FutureRecording7.xml"
+            },
+            {
+                "position": {"x": -139.8655, "y": 9.496791, "z": 71.78921},
+                "radius": 1,
+                "xmlFile": "planets/Text/FutureRecording4.xml"
+            },
+            {
+                "position": {"x": -140.8211, "y": -6.193586, "z": 70.26598},
+                "radius": 1,
+                "xmlFile": "planets/Text/FutureRecording3.xml"
+            },
+            {
+                "position": {"x": 43.99859, "y": -54.21494, "z": -141.1776},
+                "radius": 1,
+                "xmlFile": "planets/Text/FutureRecording5.xml"
+            }
+        ],
+        "campfires": [
+            {
+                "position": {"x": -4.883743, "y": 481.1571, "z": -47.44489},
+                "rotation": {"x": 358.2547, "y": 300.7571, "z": 4.716532},
+                "initialState": "unlit"
+            },
+            {
+                "position": {"x": 386.9023, "y": 225.3072, "z": 117.5676},
+                "rotation": {"x": 41.06147, "y": 101.8868, "z": 36.06443},
+                "initialState": "unlit"
+            }
+        ]
+    },
+    "Volumes": {
+        "revealVolumes": [
+            {
+                "position": {"x": 113.1486, "y": -14.97276, "z": -134.1512},
+                "radius": 70,
+                "revealOn": "observe",
+                "reveals": [
+                    "AsteroidSpotted",
+                    "Crystals",
+                    "AsteroidRelated"
+                ]
+            },
+            {
+                "position": {"x": -128.9173, "y": 37.97614, "z": 80.00967},
+                "radius": 40,
+                "revealOn": "enter",
+                "reveals": [
+                    "EnteredDome",
+                    "TableFound"
+                ]
+            },
+            {
+                "position": {"x": -81.08009, "y": 22.704, "z": -131.9911},
+                "radius": 100,
+                "revealOn": "observe",
+                "reveals": [
+                    "VillagesSpotted"
+                ]
+            },
+            {
+                "position": {"x": 122.9034, "y": -44.20876, "z": 85.85865},
+                "radius": 100,
+                "revealOn": "observe",
+                "reveals": [
+                    "VillagesSpotted"
+                ]
+            }
+        ],
+        "audioVolumes": [
+            {
+                "radius": 800,
+                "audio": "planets/Music/Ice-bed.mp3",
+                "clipSelection": "sequential",
+                "track": "music",
+                "loop": true,
+                "volume": 0.8,
+                "fadeSeconds": 5
+            },
+            {
+                "radius": 40,
+                "position": {"x": -126.9429, "y": 38.8432, "z": 83.18761},
+                "audio": "planets/Music/Deficit of Time.mp3",
+                "clipSelection": "sequential",
+                "track": "music",
+                "priority": 5,
+                "loop": true,
+                "volume": 0.8,
+                "fadeSeconds": 5
+            },
+            {
+                "radius": 70,
+                "position": {"x": 112.2248, "y": -11.81618, "z": -132.5617},
+                "audio": "planets/Music/Deficit of Time.mp3",
+                "clipSelection": "sequential",
+                "track": "music",
+                "priority": 5,
+                "loop": true,
+                "volume": 0.8,
+                "fadeSeconds": 5
+            },
+            {
+                "radius": 15,
+                "position": {"x": -126.9968, "y": 57.99029, "z": 99.71478},
+                "audio": "planets/Music/Components of Fate.mp3",
+                "clipSelection": "sequential",
+                "track": "music",
+                "priority": 6,
+                "loop": true,
+                "volume": 0.8,
+                "fadeSeconds": 5
+            },
+            {
+                "radius": 10000,
+                "audio": "planets/Music/Eras Colliding.mp3",
+                "clipSelection": "sequential",
+                "track": "music",
+                "priority": 999,
+                "loop": true,
+                "volume": 0.9,
+                "fadeSeconds": 5
+            }
+        ]
+    }
+}

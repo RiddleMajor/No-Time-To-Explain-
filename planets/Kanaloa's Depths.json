@@ -1,0 +1,210 @@
+{
+    "name": "Kanaloa's Depths",
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "starSystem": "Kronos' Inferno",
+    "canShowOnTitle": true,
+    "Base": {
+        "surfaceSize": 700,
+        "surfaceGravity": 14
+    },
+    "Orbit": {
+        "primaryBody": "The Blazing Sea",
+        "semiMajorAxis": 8000,
+        "trueAnomaly": 10
+    },
+    "AmbientLights": [
+        {
+            "tint": {
+                "r": 100,
+                "g": 100,
+                "b": 150
+            },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "intensity": 1,
+            "outerRadius": 900,
+            "innerRadius": 0
+        }
+    ],
+    "Atmosphere": {
+        "atmosphereTint": {
+            "r": 100,
+            "g": 100,
+            "b": 150
+        },
+        "atmosphereSunIntensity": 0.7,
+        "hasOxygen": true,
+        "size": 800,
+        "fogSize": 800,
+        "fogDensity": 1,
+        "fogTint": {
+            "r": 80,
+            "g": 80,
+            "b": 100
+        },
+        "useAtmosphereShader": true
+    },
+    "Water": {
+        "size": 465,
+        "tint": {
+            "r": 80,
+            "g": 120,
+            "b": 140
+        },
+        "density": 18,
+        "buoyancy": 1.05
+    },
+    "MapMarker": {
+        "enabled": true
+    },
+    "ShipLog": {
+        "xmlFile": "planets/Shiplogs/Kanaloa's.xml",
+        "spriteFolder": "planets/Images",
+        "mapMode": {
+            "offset": 1.5,
+            "scale": 2.5,
+            "revealedSprite": "planets/Images/Water1-removebg-preview.png"
+        }
+    },
+    "Props": {
+        "details": [
+            {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "alignRadial": true,
+                "keepLoaded": true,
+                "scale": 350,
+                "assetBundle": "planets/Models/kanaloa's depths",
+                "path": "Assets/Kanaloa's Depths.prefab"
+            },
+            {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "alignRadial": true,
+                "keepLoaded": false,
+                "scale": 350,
+                "assetBundle": "planets/Models/folliage_d",
+                "path": "Assets/folliage_d.prefab"
+            }
+        ],
+        "dialogue": [
+            {
+                "position": {"x": -46.64162, "y": 49.19258, "z": -143.603},
+                "radius": 1,
+                "xmlFile": "planets/Text/PastRecording1.xml"
+            },
+            {
+                "position": {"x": -99.41359, "y": -16.45895, "z": -122.9533},
+                "radius": 1,
+                "xmlFile": "planets/Text/PastRecording3.xml"
+            },
+            {
+                "position": {"x": -65.34151, "y": 66.32382, "z": -128.8536},
+                "radius": 1,
+                "xmlFile": "planets/Text/PastRecording2.xml"
+            },
+            {
+                "position": {"x": 119.0288, "y": 17.87928, "z": 103.8458},
+                "radius": 1,
+                "xmlFile": "planets/Text/PastRecording4.xml"
+            },
+            {
+                "position": {"x": 84.2134, "y": -97.59414, "z": 93.03429},
+                "radius": 1,
+                "xmlFile": "planets/Text/PastRecording5.xml"
+            },
+            {
+                "position": {"x": 457.4171, "y": -67.96767, "z": -7.091738},
+                "radius": 1,
+                "xmlFile": "planets/Text/PastRecording6.xml"
+            },
+            {
+                "position": {"x": -141.0645, "y": -2.962451, "z": 82.9146},
+                "radius": 5,
+                "xmlFile": "planets/Text/SquidDialogue.xml"
+            }
+        ],
+        "translatorText": [
+            {
+                "position": {"x": -11.2148, "y": 491.9435, "z": -8.0549},
+                "rotation": {"x": 0, "y": 32, "z": 0},
+                "type": "scroll",
+                "xmlFile": "planets/Text/ExpeditionText2.xml"
+            },
+            {
+                "position": {"x": -21.20579, "y": 490.9966, "z": -5.098667},
+                "rotation": {"x": 358.0062, "y": 63.22951, "z": 0.7898648},
+                "type": "whiteboard",
+                "xmlFile": "planets/Text/ExpeditionText1.xml"
+            }
+        ],
+        "campfires": [
+            {
+                "position": {"x": 4.132209, "y": 489.852, "z": 42.11462},
+                "rotation": {"x": 358.0254, "y": 125.8296, "z": 3.871063},
+                "initialState": "unlit"
+            },
+            {
+                "position": {"x": -327.5186, "y": 5.566391, "z": -345.1801},
+                "rotation": {"x": 297.3038, "y": 134.9501, "z": 270},
+                "initialState": "unlit"
+            }
+        ]
+    },
+    "Volumes": {
+        "revealVolumes": [
+            {
+                "radius": 700,
+                "revealOn": "enter",
+                "reveals": [
+                    "SurfaceSpotted"
+                ]
+            },
+            {
+                "position": {"x": -126.1279, "y": 38.42175, "z": 84.95858},
+                "radius": 70,
+                "revealOn": "observe",
+                "reveals": [
+                    "DomeSpotted"
+                ]
+            },
+            {
+                "position": {"x": -81.08009, "y": 22.704, "z": -131.9911},
+                "radius": 100,
+                "revealOn": "observe",
+                "reveals": [
+                    "VillagesSpotted",
+                    "DomeVillages"
+                ]
+            },
+            {
+                "position": {"x": 122.9034, "y": -44.20876, "z": 85.85865},
+                "radius": 100,
+                "revealOn": "observe",
+                "reveals": [
+                    "VillagesSpotted"
+                ]
+            }
+        ],
+        "audioVolumes": [
+            {
+                "radius": 800,
+                "audio": "planets/Music/Kanaloa.mp3",
+                "clipSelection": "sequential",
+                "track": "music",
+                "loop": true,
+                "volume": 0.8,
+                "fadeSeconds": 5
+            }
+        ]
+    }
+}

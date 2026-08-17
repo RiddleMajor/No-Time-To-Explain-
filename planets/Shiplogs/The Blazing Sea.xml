@@ -1,0 +1,33 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>The Blazing Sea</ID> 
+    <Entry>
+        <ID>TimeFluctuations</ID>
+        <Name>Time Fluctuations</Name>
+        <IsCuriosity />
+        <IgnoreMoreToExplore />
+        <RumorFact>
+            <ID>AsteroidRelated</ID>
+            <SourceID>Asteroid</SourceID>
+            <Text>-These fluctuations may be related to the glowing asteroid.</Text>
+        </RumorFact>
+        <ExploreFact>
+            <ID>PastEnd</ID>
+            <Text>-Half way through the loop, I felt the effects of the Ash-Twin Project - I was pulled into the future!</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>FutureStart</ID>
+            <Text>-The future is very different, most notably: "Kanaloa's Rest" has frozen over and "Silvanus' Peak" is overgrown and has a very large Bramble Node on the surface.</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>FutureEnd</ID>
+            <Text>-After the star exploded, I was sent all the back to the past. it seems I'm going to spend half of each loop in the past, and he other half in the future!</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>Chronalopods</ID>
+            <Text>-I found recordings from future Chronolapods, some of them were from Brevipes but I spoke to him in the past, how is that possible?</Text>
+        </ExploreFact>
+    </Entry>
+
+    
+</AstroObjectEntry>

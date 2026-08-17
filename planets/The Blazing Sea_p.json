@@ -1,0 +1,45 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "The Blazing Sea",
+    "starSystem": "Kronos' Inferno",
+    "Base": {
+        "centerOfSolarSystem": true,
+        "gravityFallOff": "inverseSquared",
+        "surfaceSize": 2000,
+        "surfaceGravity": 70
+    },
+    "MapMarker": {
+        "enabled": true
+    },
+    "Star": {
+        "hasStarController": true,
+        "size": 2000,
+        "solarLuminosity": 0.8,
+        "lightRadius": 50000
+    },
+    "Spawn": {
+        "playerSpawnPoints": [
+			{
+				"id": "PlayerSpawnPlace",
+				"offset": {"x": 9000,"y": 0,"z": 0},
+				"isDefault": true,
+				"startWithSuit": true
+			}
+		],
+        "shipSpawnPoints": [
+			{
+				"id": "SpawnPlace",
+				"offset": {"x": 9000,"y": 0,"z": 0},
+				"isDefault": false
+			}
+		]
+    },
+    "ShipLog": {
+        "xmlFile": "planets/Shiplogs/The Blazing Sea.xml",
+        "spriteFolder": "planets/Images",
+        "mapMode": {
+            "scale": 4,
+            "revealedSprite": "BlazingSea1-removebg-preview"
+        }
+    }
+}

@@ -1,0 +1,49 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+    <NameField>RECORDING</NameField>
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>Mellea: Pictus, I hoped to discuss something with you, I hope you don't mind me recording this.</Page>
+        </Dialogue>
+        <DialogueTarget>1</DialogueTarget>
+    </DialogueNode>
+
+
+    <DialogueNode>
+        <Name>1</Name>
+        <Dialogue>
+            <Page>Mellea: I wanted to see if we could develop some sort of mechanical medical assistance tool to use within the dome - an extra pair of tentacles.</Page>
+        </Dialogue>
+        <DialogueTarget>2</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>2</Name>
+        <Dialogue>
+            <Page>Pictus: I don't know, Mellea. Medical emergencies are few and far between, it would take too much space and resources for something so frivolous when you can just ask one of us to help.</Page>
+        </Dialogue>
+        <DialogueTarget>3</DialogueTarget>
+    </DialogueNode>
+    
+    <DialogueNode>
+        <Name>3</Name>
+        <Dialogue>
+            <Page>Mellea: I thought you might say that, could I convince you if it were to double as an assembly tool? That way it would get more use. This would really help me with smaller tasks as well without bothering other's important work.</Page>
+        </Dialogue>
+        <DialogueTarget>4</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>4</Name>
+        <Dialogue>
+            <Page>Pictus: I can already see you've thought a lot about this... Very well, let's discuss the designs.</Page>
+        </Dialogue>
+        <RevealFacts><FactID>TableUses</FactID></RevealFacts>
+    </DialogueNode>
+
+
+
+</DialogueTree>

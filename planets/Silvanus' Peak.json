@@ -1,0 +1,207 @@
+{
+    "name": "Silvanus' Peak",
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "starSystem": "Future",
+    "canShowOnTitle": true,
+    "Base": {
+        "surfaceSize": 700,
+        "surfaceGravity": 14
+    },
+    "Orbit": {
+        "primaryBody": "The Blazing Sea",
+        "semiMajorAxis": 9000,
+        "trueAnomaly": -100
+    },
+    "AmbientLights": [
+        {
+            "tint": {
+                "r": 100,
+                "g": 150,
+                "b": 120
+            },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "intensity": 1,
+            "outerRadius": 800,
+            "innerRadius": 200
+        }
+    ],
+    "Atmosphere": {
+        "atmosphereTint": {
+            "r": 100,
+            "g": 150,
+            "b": 120
+        },
+        "atmosphereSunIntensity": 0.7,
+        "hasOxygen": true,
+        "hasTrees": true,
+        "size": 690,
+        "fogSize": 690,
+        "fogDensity": 1,
+        "fogTint": {
+            "r": 80,
+            "g": 100,
+            "b": 90
+        },
+        "useAtmosphereShader": true
+    },
+    "MapMarker": {
+        "enabled": true
+    },
+    "ShipLog": {
+        "xmlFile": "planets/Shiplogs/Peaks.xml",
+        "spriteFolder": "planets/Images",
+        "mapMode": {
+            "offset": 1.5,
+            "scale": 3,
+            "revealedSprite": "planets/Images/SilvanusPeak-removebg-preview.png"
+        }
+    },
+    "Bramble": {
+        "nodes": [
+            {
+                "position": {"x": -248.0876, "y": -370.6114, "z": 104.97901},
+                "rotation": {"x": 47.4611, "y": 15.9365, "z": 13.6601},
+                "scale": 2,
+                "name": "EntranceNode",
+                "linksTo": "1",
+                "possibleExits": [1]
+            }
+        ]
+    },
+    "Props": {
+        "details": [
+            {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "alignRadial": true,
+                "keepLoaded": true,
+                "scale": 350,
+                "assetBundle": "planets/Models/silvanus' peak",
+                "path": "Assets/Silvanus' Peak.prefab"
+            },
+            {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "alignRadial": true,
+                "keepLoaded": false,
+                "scale": 350,
+                "assetBundle": "planets/Models/folliage_s",
+                "path": "Assets/folliage_s.prefab"
+            },
+            {
+                "position": {"x": 301.5763, "y": 252.8037, "z": -185.0534},
+                "rotation": {"x": 323.5653, "y": 127.2444, "z": 34.24263},
+                "assetBundle": "planets/Models/heart",
+                "path": "Assets/Heart.prefab",
+                "deactivationCondition": "MachineOn",
+                "scale": 1,
+                "item": {
+                    "name": "Malleable Heart",
+                    "itemType": "mheart"
+                }
+            }
+        ],
+        "translatorText": [
+            {
+                "position": {"x": -181.6703, "y": 16.00824, "z": 429.212},
+                "rotation": {"x": 279.1896, "y": 229.1186, "z": 287.3022},
+                "type": "scroll",
+                "xmlFile": "planets/Text/FutureText3.xml"
+            },
+            {
+                "position": {"x": 561.5738, "y": 178.0171, "z": -372.4909},
+                "rotation": {"x": 330.9676, "y": 236.79, "z": 62.84478},
+                "type": "scroll",
+                "xmlFile": "planets/Text/FutureText1.xml"
+            },
+            {
+                "position": {"x": 365.8708, "y": 311.0491, "z": -486.0686},
+                "rotation": {"x": 356.8675, "y": 43.26852, "z": 293.6823},
+                "type": "whiteboard",
+                "xmlFile": "planets/Text/FutureText4.xml"
+            },
+            {
+                "position": {"x": -179.532, "y": -334.9494, "z": 250.8853},
+                "rotation": {"x": 330.0718, "y": 22.95458, "z": 147.0854},
+                "type": "whiteboard",
+                "xmlFile": "planets/Text/FutureText2.xml"
+            }
+        ],
+        "campfires": [
+            {
+                "position": {"x": 332.1402, "y": 259.2076, "z": -196.059},
+                "rotation": {"x": 358.7051, "y": 212.131, "z": 49.11526},
+                "initialState": "unlit"
+            },
+            {
+                "position": {"x": -189.8191, "y": -56.32743, "z": 420.6605},
+                "rotation": {"x": 334.4326, "y": 248.4908, "z": 262.6406},
+                "initialState": "unlit"
+            },
+            {
+                "position": {"x": -715.5468, "y": -12.66455, "z": -43.58492},
+                "rotation": {"x": 31.11528, "y": 354.8054, "z": 89.71593},
+                "initialState": "unlit"
+            }
+        ]
+    },
+    "Volumes": {
+        "audioVolumes": [
+            {
+                "radius": 800,
+                "audio": "planets/Music/Silvanus' uprising.mp3",
+                "clipSelection": "sequential",
+                "track": "music",
+                "loop": true,
+                "volume": 0.8,
+                "fadeSeconds": 5
+            },
+            {
+                "radius": 40,
+                "audio": "OW NM Nomai Ruins 081718 AP",
+                "clipSelection": "sequential",
+                "priority": 5,
+                "track": "music",
+                "loop": true,
+                "volume": 1,
+                "fadeSeconds": 2,
+                "position": {"x": 240.8381, "y": 353.528, "z": 182.5039},
+                "rotation": {"x": 1.227, "y": 140.6306, "z": 40.84269}
+            },
+            {
+                "radius": 40,
+                "audio": "OW NM Nomai Ruins 081718 AP",
+                "clipSelection": "sequential",
+                "priority": 5,
+                "track": "music",
+                "loop": true,
+                "volume": 1,
+                "fadeSeconds": 2,
+                "position": {"x": -192.9522, "y": 21.93714, "z": 422.474},
+                "rotation": {"x": 8.848851, "y": 245.1179, "z": 272.824}
+            },
+            {
+                "radius": 40,
+                "audio": "OW NM Nomai Ruins 081718 AP",
+                "clipSelection": "sequential",
+                "priority": 5,
+                "track": "music",
+                "loop": true,
+                "volume": 1,
+                "fadeSeconds": 2,
+                "position": {"x": 373.852, "y": 307.9199, "z": -479.9356},
+                "rotation": {"x": 66.35397, "y": 135.2897, "z": 0.5938294}
+            }
+        ]
+    }
+}

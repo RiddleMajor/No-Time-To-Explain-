@@ -1,0 +1,40 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+    <NameField>RECORDING</NameField>
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>Calveryi: P-P-P-Personal log! I just found something awesome...</Page>
+        </Dialogue>
+        <DialogueTarget>1</DialogueTarget>
+    </DialogueNode>
+
+
+    <DialogueNode>
+        <Name>1</Name>
+        <Dialogue>
+            <Page>Calveryi: So my father, Bouderi, apparently had some very interesting ideas that was arrogantly rejected by his peers!</Page>
+        </Dialogue>
+        <DialogueTarget>2</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>2</Name>
+        <Dialogue>
+            <Page>Calveryi: I'm kidding, even I wouldn't invest in this "radiation" stuff but no one seems to want me around for anything else so...</Page>
+        </Dialogue>
+        <DialogueTarget>3</DialogueTarget>
+    </DialogueNode>
+    
+    <DialogueNode>
+        <Name>3</Name>
+        <Dialogue>
+            <Page>Calveryi: I'm going to take this a step further, maybe leave some notes in the dome!</Page>
+        </Dialogue>
+        <RevealFacts><FactID>Calveryi</FactID></RevealFacts>
+    </DialogueNode>
+
+
+</DialogueTree>

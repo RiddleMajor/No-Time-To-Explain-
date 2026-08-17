@@ -1,0 +1,163 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+    <NameField>Dome Screen</NameField>
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>A- Another being... Different from those who came before. No, you shouldn't be here.</Page>
+        </Dialogue>
+        <RevealFacts><FactID>ScreenSpotted</FactID></RevealFacts>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>Who are you?</Text>
+                <DialogueTarget>1</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Why shouldn't I be here?</Text>
+                <DialogueTarget>1</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+
+    <DialogueNode>
+        <Name>1</Name>
+        <Dialogue>
+            <Page><![CDATA[<color=grey>sigh</color>]]> I am Brevipes and this is our home, until the asteroid destroyed it... Which is why you must leave.</Page>
+        </Dialogue>
+        <SetPersistentCondition>BrevipesSpoken</SetPersistentCondition>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>Wait, How come we can understand each other?</Text>
+                <DialogueTarget>2</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>What asteroid? I don't see any nearby.</Text>
+                <DialogueTarget>3</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+
+    <DialogueNode>
+        <Name>2</Name>
+        <Dialogue>
+            <Page>It is likely that our languages are similar enough for our minds to fill in the gaps.</Page>
+            <Page>It is not the strangest thing I've seen.</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>May I come in?</Text>
+                <DialogueTarget>4</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Why are all these houses abandoned?</Text>
+                <DialogueTarget>5</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>What did you mean by "Those who came before"?</Text>
+                <DialogueTarget>6</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <RequiredLogCondition>Bouderi</RequiredLogCondition>
+                <Text>I found recordings from someone named Bouderi talking about radiation.</Text>
+                <DialogueTarget>7</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>I'll get going now.</Text>
+                <DialogueTarget>9</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>3</Name>
+        <Dialogue>
+            <Page>Not in this era, perhaps...</Page>
+        </Dialogue>
+        <RevealFacts><FactID>BrevipesAsteroid</FactID></RevealFacts>
+        <DialogueOptionsList>
+            <ReuseDialogueOptionsListFrom>2</ReuseDialogueOptionsListFrom>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>4</Name>
+        <Dialogue>
+            <Page>We cannot open this door! It could mark our end...</Page>
+        </Dialogue>
+        <RevealFacts><FactID>BrevipesParanoid</FactID></RevealFacts>
+        <DialogueOptionsList>
+            <ReuseDialogueOptionsListFrom>2</ReuseDialogueOptionsListFrom>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>5</Name>
+        <Dialogue>
+            <Page>Our ancestors lived in them, I fear we will share their fate.</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <ReuseDialogueOptionsListFrom>2</ReuseDialogueOptionsListFrom>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>6</Name>
+        <Dialogue>
+            <Page>While I am unaware of their exact whereabouts, they may have set themselves up on Sil-... Ourea's Peak.</Page>
+            <Page>You're more likely to find them there.</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <ReuseDialogueOptionsListFrom>2</ReuseDialogueOptionsListFrom>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>7</Name>
+        <Dialogue>
+            <Page>Ideas we dismissed. They were unimportant to us.</Page>
+        </Dialogue>
+        <DialogueOptionsList>
+            <DialogueOption>
+                <RequiredLogCondition>Calveryi</RequiredLogCondition>
+                <Text>Bouderi's son, Calveryi, made notes on how to build something that could help you.</Text>
+                <DialogueTarget>8</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>May I come in?</Text>
+                <DialogueTarget>4</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>Why are all these houses abandoned?</Text>
+                <DialogueTarget>5</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>What did you mean by "Those who came before"?</Text>
+                <DialogueTarget>6</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>I'll get going now.</Text>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>8</Name>
+        <Dialogue>
+            <Page>I see... Perhaps we could look into this after all. Thank you.</Page>
+        </Dialogue>
+        <RevealFacts><FactID>Brevipes</FactID></RevealFacts>
+        <SetPersistentCondition>BrevipesConvinced</SetPersistentCondition>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>9</Name>
+        <Dialogue>
+            <Page>Do not come back.</Page>
+        </Dialogue>
+    </DialogueNode>
+
+</DialogueTree>

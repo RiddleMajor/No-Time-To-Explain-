@@ -1,0 +1,159 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>Ourea's Peak</ID> 
+    <Entry>
+        <ID>PurifiedCrystal</ID>
+        <Name>Purified Crystal</Name>
+        <Curiosity>Asteroid</Curiosity>
+        <RumorFact>
+            <ID>BrambleCore</ID>
+            <SourceID>BrambleSeed</SourceID>
+            <RumorName>Planet Core</RumorName>
+            <Text>The bramble seed might be reaching to the core.</Text>
+        </RumorFact>
+        <ExploreFact>
+            <ID>MadeToCore</ID>
+            <Text>I followed directions from a Nomai who scanned the planet and made it into the core.</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>CrystalSpotted</ID>
+            <Text>Inside the core was a glowing, pink crystal. I might be able to use this to assemble a device and dampen the asteroid's effects.</Text>
+        </ExploreFact>
+    </Entry>
+
+    <Entry>
+        <ID>TreasureHunt</ID>
+        <Name>Treasure Hunt</Name>
+        <Curiosity>Asteroid</Curiosity>
+        <RumorFact>
+            <ID>HuntRecording</ID>
+            <SourceID>NomaiCamps</SourceID>
+            <Text>I found Nomai recording talking about some sort of treasure hunt</Text>
+        </RumorFact>
+        <ExploreFact>
+            <ID>Clue1</ID>
+            <Text>The first clue was: "Behind the pedestal upon which you belong". </Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>Clue2</ID>
+            <Text>I found a clue that says "Beyond our mountain, which I would happily move for you."</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>Clue3</ID>
+            <Text>I found a clue that says "Behind Sonchus' plant, that breathes life into the world as you do into mine."</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>Clue4</ID>
+            <Text>I found a clue that says "In the wall by the stairs - hidden, unlike my love for you."</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>Clue5</ID>
+            <Text>I found a clue that says "Somewhere within our shuttle, which will warp us high into the stars that shine in your eyes."</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>Clue6</ID>
+            <Text>I found a final clue that says "And now, take this scroll and traverse to the bottom of the twin flat peaks to retrieve your prize."</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>VaultSpotted</ID>
+            <Text>I found the vault with text that said to place the scroll into the door.</Text>
+        </ExploreFact>
+    </Entry>
+
+    <Entry>
+        <ID>MalleableHeart</ID>
+        <Name>Malleable Heart</Name>
+        <Curiosity>Asteroid</Curiosity>
+        <RumorFact>
+            <ID>VaultEntered</ID>
+            <SourceID>TreasureHunt</SourceID>
+            <Text>I followed clues left from a treasure hunt that led me to a vault.</Text>
+        </RumorFact>
+        <ExploreFact>
+            <ID>HeartFound</ID>
+            <Text>Inside the vault was a heart that seems similar to the projection goop the Nomai used in my star system. I might be able to bring this to the future to assemble a device and dampen the asteroid's effects.</Text>
+        </ExploreFact>
+    </Entry>
+
+    <Entry>
+        <ID>UndergroundTunnels</ID>
+        <Name>Underground Tunnels</Name>
+        <Curiosity>Asteroid</Curiosity>
+        <ExploreFact>
+            <ID>TunnelWriting1</ID>
+            <Text>I found writing from a Nomai who discovered tunnels deep underground</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>TunnelWriting2</ID>
+            <Text>These tunnels are said to lead to the planet's core.</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>TunnelDirections</ID>
+            <Text>There was also directions for the tunnels to the core: North, NorthWest, South, SouthEast, West, and continue West.</Text>
+        </ExploreFact>
+    </Entry>
+
+    <Entry>
+        <ID>BrambleSeed</ID>
+        <Name>Bramble Seed</Name>
+        <Curiosity>Asteroid</Curiosity>
+        <RumorFact>
+            <ID>BrambleTunnel</ID>
+            <SourceID>UndergroundTunnels</SourceID>
+            <Text>The bramble could be following underground tunnels.</Text>
+        </RumorFact>
+        <ExploreFact>
+            <ID>SeedSpotted</ID>
+            <Text>I found a Dark Bramble seed on Ourea's Peak, the Nomai here seemed unaware of its origins.</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>SeedNomai</ID>
+            <Text>The Nomai discovered that the bramble seed was deeply rooted into the ground and reaching towards the planet's core.</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>ExpeditionWriting</ID>
+            <Text>I found writing in the future talking about an expedition into the bramble seed.</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>BrambleShuttle</ID>
+            <Text>I found the Nomai shuttle inside the seed, I don't see any signs of living Nomai.</Text>
+        </ExploreFact>
+        <Entry>
+        <ID>Ernesto</ID>
+        <Name>Ernesto</Name>
+        <Curiosity>Asteroid</Curiosity>
+        <ExploreFact>
+            <ID>ErnestoSpotted</ID>
+            <Text>I found Ernesto, the Magic Talking Anglerfish, in the bramble seed. He doesn't want me to interrupt his staring.</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>ErnestoInfo</ID>
+            <Text>Ernesto says flying out of his bramble seed will take me where I need to go, and flying into the seed below him will take me back to the start.</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>ErnestoFriends</ID>
+            <Text>I interrupted his staring and now we're not friends anymore ::(.</Text>
+        </ExploreFact>
+    </Entry>
+    </Entry>
+
+    <Entry>
+        <ID>NomaiCamps</ID>
+        <Name>Nomai Camps</Name>
+        <Curiosity>Asteroid</Curiosity>
+        <ExploreFact>
+            <ID>CampsSpotted</ID>
+            <Text>I found various Nomai buildings scattered across Ourea's Peak.</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>SeedWritings</ID>
+            <Text>I found a Nomai scroll next to a small Bramble Seed, they wondered what could be inside.</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>StolenEquipment1</ID>
+            <Text>I found writings from two Nomai theorizing about being stolen from by another species.</Text>
+        </ExploreFact>
+    </Entry>
+    
+    
+</AstroObjectEntry>

@@ -1,0 +1,48 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+    <NameField>RECORDING</NameField>
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>Calveryi: So, this asteroid his our planet a couple days ago and while Brevipes is doing his usual "Study, not Disturb" routine, everyone's acting like nothing's happened...</Page>
+        </Dialogue>
+        <DialogueTarget>1</DialogueTarget>
+    </DialogueNode>
+
+
+    <DialogueNode>
+        <Name>1</Name>
+        <Dialogue>
+            <Page>Calveryi: I'm kinda freaking out but no one's really helping, they tell me 'there's nothing we can do, Brevipes will handle it' but I guess that's just not enough to make me feel safe!..</Page>
+        </Dialogue>
+        <DialogueTarget>2</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>2</Name>
+        <Dialogue>
+            <Page>Matsutake: Calv'? Who are you talking to?</Page>
+        </Dialogue>
+        <DialogueTarget>3</DialogueTarget>
+    </DialogueNode>
+    
+    <DialogueNode>
+        <Name>3</Name>
+        <Dialogue>
+            <Page>Calveryi: Mat! Uh, no one. Just myself. I could... Really use some help though.</Page>
+        </Dialogue>
+        <DialogueTarget>4</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>4</Name>
+        <Dialogue>
+            <Page>Matsutake: Of course, what's going on?</Page>
+        </Dialogue>
+    </DialogueNode>
+
+
+
+</DialogueTree>

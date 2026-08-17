@@ -1,0 +1,56 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+    <NameField>RECORDING</NameField>
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>Pictus: Thank you, Auricula for to fix this light on such short notice.</Page>
+        </Dialogue>
+        <DialogueTarget>1</DialogueTarget>
+    </DialogueNode>
+
+
+    <DialogueNode>
+        <Name>1</Name>
+        <Dialogue>
+            <Page>Auricula: Of course! We Chronalopods can't have our top research being hindered by darkness, can we?</Page>
+        </Dialogue>
+        <DialogueTarget>2</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>2</Name>
+        <Dialogue>
+            <Page>Pictus: I... Did want to ask you if Bouderi was alright. He doesn't seem like himself recently but insists that he's fine...</Page>
+        </Dialogue>
+        <DialogueTarget>3</DialogueTarget>
+    </DialogueNode>
+    
+    <DialogueNode>
+        <Name>3</Name>
+        <Dialogue>
+            <Page>Auricula: He's just a little worn down by his theory being turned down. Not to say you were wrong in doing so-</Page>
+        </Dialogue>
+        <DialogueTarget>4</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>4</Name>
+        <Dialogue>
+            <Page>Auricula: Um, is that recording?</Page>
+        </Dialogue>
+        <DialogueTarget>5</DialogueTarget>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>5</Name>
+        <Dialogue>
+            <Page>Pictus: Argh, malfunctioning again? I'll take it home with me this evening... Thanks again.</Page>
+        </Dialogue>
+        <RevealFacts><FactID>NameFound</FactID></RevealFacts>
+    </DialogueNode>
+
+
+</DialogueTree>
