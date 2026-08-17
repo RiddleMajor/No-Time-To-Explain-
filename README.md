@@ -1,4 +1,4 @@
-!\[No Time To Explain](thumbnail.png)
+!\[No Time To Explain](./thumbnail.png)
 A short Outer Wilds mod for jam 6 about a system out of time. 
 
 
