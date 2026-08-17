@@ -1,4 +1,4 @@
-﻿name: Create Release
+name: Create Release
 
 on:
   workflow_dispatch:
@@ -50,6 +50,7 @@ jobs:
       - name: Error
         if: ${{ steps.out.outputs.exists != 'false' && (!inputs.bypassCheck) }}
         run: echo "::error file=manifest.json,title=Refusing to Release::Your mod was not released because there is already a release with the version in manifest.json"
+
   release:
     needs: pre_job
     if: ${{ (needs.pre_job.outputs.version != '0.0.0') && (needs.pre_job.outputs.exists == 'false') || (inputs.bypassCheck) }}
@@ -87,6 +88,6 @@ jobs:
           tag: v${{ needs.pre_job.outputs.version }}
           name: Version ${{ needs.pre_job.outputs.version }}
           omitBodyDuringUpdate: true
-          artifacts: "${{ env.PROJ_USERNAME}}.${{ env.PROJ_NAME }}.zip"
+          artifacts: "${{ env.PROJ_USERNAME }}.${{ env.PROJ_NAME }}.zip"
           draft: true
           prerelease: ${{ inputs.prerelease }}
