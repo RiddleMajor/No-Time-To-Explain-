@@ -230,6 +230,7 @@ public class No_Time_To_Waste : ModBehaviour
         swapper.EquipToolMode(ToolMode.Item);
         itemTool.PickUpItemInstantly(item);
         heartb = false;
+        NewHorizons.SetDefaultSystem("Kronos' Inferno");
     }
 
     [HarmonyPatch(typeof(OWItem), nameof(OWItem.PickUpItem))]

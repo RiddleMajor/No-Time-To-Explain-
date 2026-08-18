@@ -9,6 +9,7 @@
             <ID>BrambleCore</ID>
             <SourceID>BrambleSeed</SourceID>
             <RumorName>Planet Core</RumorName>
+            <IgnoreMoreToExplore />
             <Text>The bramble seed might be reaching to the core.</Text>
         </RumorFact>
         <ExploreFact>
