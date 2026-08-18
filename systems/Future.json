@@ -6,7 +6,7 @@
 	"freeMapAngle": true,
 	"returnToSolarSystemWhenTooFar": true,
 	"enableTimeLoop": true,
-	"loopDuration": 12,
+	"loopDuration": 13,
 	"initialReveal": [
 		"PastEnd",
 		"FutureStart"

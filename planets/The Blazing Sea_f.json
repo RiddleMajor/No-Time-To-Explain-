@@ -20,7 +20,7 @@
         }
     },
     "Star": {
-        "lifespan": 11,
+        "lifespan": 13,
         "hasStarController": true,
         "endTint": {
             "r": 250,
