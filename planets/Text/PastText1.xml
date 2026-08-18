@@ -34,7 +34,7 @@
 <TextBlock>
     <ID>6</ID>
     <ParentID>5</ParentID>
-    <Text>Sonchus: I have, the closest route is below this mountain, but we'll still have to dig quite far. To get to the core from here you must go...North, North-West, South, South-East, West, then continue West.</Text>
+    <Text>Sonchus: I have, the closest route is below this mountain, but we'll still have to dig quite far. To get to the core from here you must go...North, North-West, South, South-East, and West.</Text>
 </TextBlock>
 <ShipLogConditions>
     <RevealFact>
