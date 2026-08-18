@@ -19,7 +19,7 @@
                 "position": {
                     "x": 301,
                     "y": 0,
-                    "z": 213
+                    "z": 183
                 },
                 "name": "east3",
                 "scale": 1,
@@ -31,7 +31,7 @@
                 "position": {
                     "x": -299,
                     "y": 311,
-                    "z": 196
+                    "z": 166
                 },
                 "name": "northwest3",
                 "scale": 1,
@@ -43,7 +43,7 @@
                 "position": {
                     "x": 0,
                     "y": -300,
-                    "z": 204
+                    "z": 174
                 },
                 "name": "south3",
                 "scale": 1,
@@ -55,7 +55,7 @@
                 "position": {
                     "x": 304,
                     "y": -299,
-                    "z": 202
+                    "z": 172
                 },
                 "name": "southeast3",
                 "scale": 1,

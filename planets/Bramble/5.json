@@ -19,7 +19,7 @@
                 "position": {
                     "x": 304,
                     "y": 0,
-                    "z": 199
+                    "z": 169
                 },
                 "name": "east5",
                 "scale": 1,
@@ -31,7 +31,7 @@
                 "position": {
                     "x": 0,
                     "y": 309,
-                    "z": 196
+                    "z": 166
                 },
                 "name": "nort5",
                 "scale": 1,
@@ -43,7 +43,7 @@
                 "position": {
                     "x": -306,
                     "y": 0,
-                    "z": 200
+                    "z": 170
                 },
                 "name": "west5",
                 "scale": 1,
@@ -55,7 +55,7 @@
                 "position": {
                     "x": 0,
                     "y": -296,
-                    "z": 202
+                    "z": 172
                 },
                 "name": "south5",
                 "scale": 1,
@@ -67,7 +67,7 @@
                 "position": {
                     "x": 302,
                     "y": -310,
-                    "z": 214
+                    "z": 184
                 },
                 "name": "southeast5",
                 "scale": 1,
@@ -79,7 +79,7 @@
                 "position": {
                     "x": -300,
                     "y": -300,
-                    "z": 207
+                    "z": 177
                 },
                 "name": "southwest1",
                 "scale": 1,

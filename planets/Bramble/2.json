@@ -19,7 +19,7 @@
                 "position": {
                     "x": 297,
                     "y": 5,
-                    "z": 198
+                    "z": 168
                 },
                 "name": "east2",
                 "scale": 1,
@@ -31,7 +31,7 @@
                 "position": {
                     "x": 4,
                     "y": 308,
-                    "z": 211
+                    "z": 171
                 },
                 "name": "north2",
                 "scale": 1,
@@ -43,7 +43,7 @@
                 "position": {
                     "x": -301,
                     "y": 8,
-                    "z": 208
+                    "z": 178
                 },
                 "name": "west2",
                 "scale": 1,
@@ -55,7 +55,7 @@
                 "position": {
                     "x": 1,
                     "y": -314,
-                    "z": 205
+                    "z": 175
                 },
                 "name": "south2",
                 "scale": 1,
@@ -67,7 +67,7 @@
                 "position": {
                     "x": -296,
                     "y": 311,
-                    "z": 201
+                    "z": 171
                 },
                 "name": "northwest2",
                 "scale": 1,

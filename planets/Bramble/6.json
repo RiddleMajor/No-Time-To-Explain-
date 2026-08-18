@@ -19,7 +19,7 @@
                 "position": {
                     "x": 0,
                     "y": 310,
-                    "z": 200
+                    "z": 170
                 },
                 "name": "north6",
                 "scale": 1,
@@ -31,7 +31,7 @@
                 "position": {
                     "x": -295,
                     "y": 0,
-                    "z": 200
+                    "z": 170
                 },
                 "name": "west6",
                 "scale": 1,
@@ -43,7 +43,7 @@
                 "position": {
                     "x": 301,
                     "y": 0,
-                    "z": 200
+                    "z": 170
                 },
                 "name": "west6",
                 "scale": 1,
@@ -55,7 +55,7 @@
                 "position": {
                     "x": 0,
                     "y": -306,
-                    "z": 200
+                    "z": 170
                 },
                 "name": "south6",
                 "scale": 1,
@@ -67,7 +67,7 @@
                 "position": {
                     "x": -299,
                     "y": -295,
-                    "z": 200
+                    "z": 170
                 },
                 "name": "southwest6",
                 "scale": 1,
@@ -79,7 +79,7 @@
                 "position": {
                     "x": 316,
                     "y": -302,
-                    "z": 200
+                    "z": 170
                 },
                 "name": "southeast4",
                 "scale": 1,
@@ -91,7 +91,7 @@
                 "position": {
                     "x": -313,
                     "y": 300,
-                    "z": 202
+                    "z": 172
                 },
                 "name": "northwest6",
                 "scale": 1,
@@ -103,7 +103,7 @@
                 "position": {
                     "x": 303,
                     "y": 303,
-                    "z": 208
+                    "z": 178
                 },
                 "name": "northeast6",
                 "scale": 1,

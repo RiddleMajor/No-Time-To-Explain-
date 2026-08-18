@@ -31,7 +31,7 @@
                 "position": {
                     "x": -294,
                     "y": 0,
-                    "z": 200
+                    "z": 170
                 },
                 "name": "west4",
                 "scale": 1,
@@ -43,7 +43,7 @@
                 "position": {
                     "x": -301,
                     "y": -299,
-                    "z": 200
+                    "z": 170
                 },
                 "name": "southwest4",
                 "scale": 1,
@@ -55,7 +55,7 @@
                 "position": {
                     "x": 314,
                     "y": -293,
-                    "z": 200
+                    "z": 170
                 },
                 "name": "southeast4",
                 "scale": 1,
@@ -67,7 +67,7 @@
                 "position": {
                     "x": -300,
                     "y": 300,
-                    "z": 202
+                    "z": 172
                 },
                 "name": "northwest4",
                 "scale": 1,
