@@ -18,7 +18,7 @@
         {
             "text": "You disrupted the effects of the asteroid, altering the timeline to become what could have been.",
             "condition": "ADDInserted",
-            "creditsType": "final"
+            "creditsType": "fast"
         }
     ],
     "subtitlePath": "planets/Images/No-Time-to-Waste_img-removebg-preview.png"
