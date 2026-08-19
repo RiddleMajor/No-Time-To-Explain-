@@ -110,6 +110,7 @@
                 "isRelativeToParent": true,
                 "scale": 0.01,
                 "position": {"x": 0,"y": 0,"z": 0.012},
+                "deactivationCondition": "MachineOn",
                 "itemSocket": {
                     "itemType": "mheart",
                     "colliderRadius": 1,
@@ -186,7 +187,7 @@
                 "itemSocket": {
                     "itemType": "add",
                     "colliderRadius": 10,
-                    "interactRange": 3,
+                    "interactRange": 5,
                     "insertCondition": "ADDInserted"
                 }
             }

@@ -4,7 +4,7 @@
   "author": "RiddleMajor",
   "name": "No Time To Waste",
   "uniqueName": "RiddleMajor.No_Time_To_Waste",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "owmlVersion": "2.15.1",
   "dependencies": ["xen.NewHorizons"]
 }
