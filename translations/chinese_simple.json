@@ -1,0 +1,299 @@
+{
+  "UIDictionary": {
+    "We recommend turning on 'Freeze time while talking to others. Please excuse any bugs and have fun ::)'": "建议开启“对话时暂停时间”功能。如有bug敬请谅解，祝你游玩愉快 ::)",
+    "You disrupted the effects of the asteroid, altering the timeline to become what could have been.": "你消除了小行星的影响，改写了时间线，让一切走向了应有的模样。",
+
+    "Kronos' Inferno": "克洛诺斯炼狱",
+    "The Blazing Sea": "烈焰之海",
+    "Kanaloa's Depths": "卡纳洛阿之深",
+    "Kanaloa's Rest": "卡纳洛阿之剩",
+    "Ourea's Peak": "乌瑞亚之峰",
+    "Silvanus' Peak": "西尔瓦努斯之峰",
+
+    "Radiation Vial": "辐射样本瓶",
+    "Purified Crystal": "净化的水晶",
+    "Malleable Heart": "塑形核心"
+  },
+
+  "DialogueDictionary": {
+    //Clue1.xml
+    "Beyond our mountain, which I would happily move for you.": "山之彼端，我愿为你移山赴险。",
+
+    //Clue2.xml
+    "By Sonchus' plant, that breathes life into the world like you do into mine.": "黄色的花朵旁，它为世界赋予生机，正如你点亮我的生命。",
+
+    //Clue3.xml
+    "Behind the wall by the stairs - hidden, unlike my love for you.": "楼梯旁的墙后——藏于此处，却藏不住我对你的爱意。",
+
+    //Clue4.xml
+    "Hidden within our shuttle, that will take us to the stars that shine in your eyes.": "藏在我们的航天飞机里，它将载我们去往群星，正如你眼中的熠熠星光。",
+
+    //Clue5.xml
+    "And finally, take this scroll and travel to the bottom of the twin‑flat peaks to find your prize.": "最后，带上这卷卷轴，前往双平顶山的山底，寻获属于你的奖赏。",
+
+    //ExpeditionText1.xml
+    "Vicia: This rock is so unusual, it appears to float on the surface of this planet's waters!": "维西亚：这块岩石太奇特了，居然能浮在这颗星球的水面上！",
+    "Thimble: Indeed, I have never seen anything like it. Perhaps we should take some back with us.": "辛布尔：确实，我从没见过这种东西。或许我们该带一些回去研究。",
+    "Malva: It would be best for us to properly explore beneath sea level before we make plans to take anything back with us.": "玛尔瓦：在决定带回任何样本之前，我们最好先全面探索一下水下环境。",
+    "Vicia: Let's get ready then. We should have plenty of oxygen in our tanks to thoroughly explore the bottom.": "维西亚：那我们准备一下吧。氧气罐的储量足够我们彻底探索海底了。",
+
+    //ExpeditionText2.xml
+    "Thimble: Malva, Vicia, come look! Our equipment is missing!": "辛布尔：玛尔瓦，维西亚，快来看！我们的设备不见了！",
+    "Malva: I double checked that everything was there a minute ago! I saw no storm or wave carry them off.": "玛尔瓦：一分钟前我还反复确认过所有设备都在！既没有风暴也没有浪，不可能被冲走啊。",
+    "Vicia: Hypothesis; we are not alone on this planet. An exciting prospect, yet worrying that we have been stolen from so easily...": "维西亚：推测：这颗星球上不止我们。这是个令人振奋的发现，但设备这么轻易就被盗走，也很让人担忧……",
+    "Thimble: There is not much we can do without what we brought with us, I suggest we leave when we get the opportunity.": "辛布尔：没了设备我们做不了什么，我建议一有机会就撤离这里。",
+
+    //Ernesto.xml
+    "Ernesto": "厄内斯托",
+    "Oh hey, congrats on making it this far.": "哟，不错啊，居然走到这儿了。",
+    "Ernes‑": "厄内斯——",
+    "SHUT IT! I need to explain a couple things: first up, if you go straight on behind me, you'll get to where you need to be. Once you're done, come back and go through the seed below us to get outta here.": "闭嘴！我得说几件事：第一，从我身后一直往前走，就能到你要去的地方。完事之后回来，从我们脚下的种子出去。",
+    "I sure hope you got that 'cause I'm not saying it again! Now if you'll excuse me I have something very important to stare at.": "希望你听明白了，我可不会再说第二遍！好了失陪，我要盯着一件非常重要的东西看。",
+    "Wait, Ernesto. Why are there so many conveniently placed platforms in these seeds?": "等等，厄内斯托。为什么这些种子里有这么多刚好能用的平台？",
+    "How else would you figure out which way's North? I know you flipped your ship around a couple times, dummy.": "不然你怎么分得清哪边是北？我知道你已经开飞船绕了好几次了，笨蛋。",
+    "How dare you interrupt my staring!": "居然敢打扰我发呆！",
+
+    //FutureRecording1.xml
+    "RECORDING": "录音",
+    "Calveryi: P-P-P-Personal log! I just found something awesome...": "卡尔维里：个-个-个-个人日志！我刚发现了超酷的东西……",
+    "Calveryi: So my father, Bouderi, apparently had some very interesting ideas that was arrogantly rejected by his peers!": "卡尔维里：我父亲布德里以前有过一些特别有意思的想法，结果被他的同事们傲慢地否决了！",
+    "Calveryi: I'm kidding, even I wouldn't invest in this \"radiation\" stuff but no one seems to want me around for anything else so...": "卡尔维里：开玩笑的，连我都觉得这种“辐射”之类的东西不靠谱，但反正大家也不需要我做别的事，所以……",
+    "Calveryi: I'm going to take this a step further, maybe leave some notes in the dome!": "卡尔维里：我打算深入研究一下，说不定还能在穹顶里留点笔记！",
+
+    //FutureRecording2.xml
+    "Ponderosa: The farm isn't doing very well today, the coral seems barren of life.": "庞德洛萨：农场今天情况不太好，珊瑚看起来都没什么生机。",
+    "Matsutake: It seems so...": "马苏塔克：是啊……",
+    "Ponderosa: We should transfer more plants over, maybe it'll encourage more life to gather.": "庞德洛萨：我们该多移栽些植物过来，说不定能吸引更多生物聚集。",
+
+    //FutureRecording3.xml
+    "Polytricha: These lights are going out more and more. I'll have to ask Brevipes if he can help me find the root cause.": "波利特里卡：这些灯坏得越来越频繁了。我得问问布雷维佩斯能不能帮我找找根本原因。",
+    "Polytricha: Help me with this, wont you Matsutake?": "波利特里卡：过来搭把手，好吗，马苏塔克？",
+
+    //FutureRecording4.xml
+    "Brevipes: Delica, here you are; a generation in the making!": "布雷维佩斯：德利卡，给你，这可是花了整整一代人的心血才做出来的！",
+    "Polytricha: Mellea couldn't get any use from it but hopefully we will.": "波利特里卡：梅莱亚用不上它，希望我们能派上用场。",
+    "Delica: Thank you for all this, I hope all of us can make some use out of it!": "德利卡：谢谢你们做的这一切，希望我们都能用得上它！",
+
+    //FutureRecording5.xml
+    "Calveryi: So, this asteroid his our planet a couple days ago and while Brevipes is doing his usual \"Study, not Disturb\" routine, everyone's acting like nothing's happened...": "卡尔维里：话说，那颗小行星几天前撞上了我们的星球，布雷维佩斯还是老样子，奉行“只研究，不干预”的原则，所有人都跟没事人一样……",
+    "Calveryi: I'm kinda freaking out but no one's really helping, they tell me 'there's nothing we can do, Brevipes will handle it' but I guess that's just not enough to make me feel safe!..": "卡尔维里：我都快吓死了，但没人当回事，他们都说“我们无能为力，布雷维佩斯会处理的”，可这话根本没法让我安心啊！",
+    "Matsutake: Calv'? Who are you talking to?": "马苏塔克：卡尔？你在跟谁说话呢？",
+    "Calveryi: Mat! Uh, no one. Just myself. I could... Really use some help though.": "卡尔维里：阿松！呃，没谁，我自言自语呢。不过……我确实挺需要帮忙的。",
+    "Matsutake: Of course, what's going on?": "马苏塔克：当然，出什么事了？",
+
+    //FutureRecording6.xml
+    "Delica: cough cough Is it recording?": "德利卡：咳咳……开始录了吗？",
+    "Brevipes: Yes, my dear sister. Do not strain yourself!": "布雷维佩斯：是的，亲爱的姐姐。别太勉强自己！",
+    "Delica: cough I appear to have contracted a disease unlike anything I have encountered before. I am now attempting to record its symptoms in the case of my death...": "德利卡：咳……我好像染上了一种前所未见的病。我打算把症状都录下来，万一我撑不过去……",
+    "Delica: First comes a near constant nausea, then a periodical cough. I've begun feeling temperatures drastically higher than a normal fever and cough cough... Shortness of breath.": "德利卡：一开始是持续的恶心，然后开始间歇性咳嗽。后来体温飙升，比普通发烧高得多，还有咳咳……呼吸困难。",
+    "Delica: I was the first to show symptoms but, I'm told Ponderosa has reported feeling nauseous... I have a theory that this is being caused by the asteroid but I cannot be certain. If I'm right, may we be spared the worst.": "德利卡：我是第一个出现症状的，但听说庞德洛萨也开始觉得恶心了……我怀疑是那颗小行星导致的，但还不能确定。希望我是错的，希望我们都能挺过去。",
+
+    //FutureRecording7.xml
+    "Brevipes: ...It is only me, Polytricha and calveryi left. After they got ill, the other's disappeared one day, without a trace.": "布雷维佩斯：……现在只剩我、波利特里卡和卡尔维里了。他们生病之后，某天就全都消失了，无影无踪。",
+    "Brevipes: I can barely remember their names, it's like they've been erased from time! It's all that damned asteroid's fault... It's begun cracking, there's a faint green glow inside.": "布雷维佩斯：我都快记不清他们的名字了，就像被从时间里抹掉了一样！全是那颗该死的小行星的错……它已经开始裂开了，里面泛着微弱的绿光。",
+    "Brevipes: I don't know what's going to happen except that sooner or later we'll all get sick and suffer the same fate...": "布雷维佩斯：我不知道接下来会发生什么，只知道我们早晚都会染病，落得同样的下场……",
+    "Brevipes: But perhaps I can create a device to reverse the effects of the asteroid. I must try!": "布雷维佩斯：但或许我能造出一台装置，逆转小行星的影响。我必须试一试！",
+
+    //FutureText1.xml
+    "Protea: Everyone! You may have noticed the asteroid that appears to have crashed into our neighboring water planet.": "普罗蒂亚：各位！你们应该都注意到了，那颗小行星撞上了我们邻近的水行星。",
+    "Protea: I propose we begin an expedition so they we may explore this asteroid and the planet, once and for all.": "普罗蒂亚：我提议组织一支探险队，彻底探索一下这颗小行星和那颗行星。",
+    "Borago: I appreciate the sentiment, Protea but me a Paeonia are almost ready to explore the Bramble seed after all this time!": "博拉戈：我理解你的想法，普罗蒂亚，但我和佩奥尼亚筹备了这么久，马上就要去探索黑棘种子了！",
+    "Protea: Of course... My apologies, I was too hasty. Just come back safely, we still have much to explore.": "普罗蒂亚：也是……抱歉，是我太心急了。你们一定要平安回来，我们还有很多地方要探索呢。",
+
+    //FutureText2.xml
+    "Paeonia: This \"Bramble\" seed has grown much since my parents first showed it to me.": "佩奥尼亚：这颗“黑棘”种子，比我父母第一次指给我看的时候大太多了。",
+    "Borago: Indeed it has, I almost can't believe we're about to go inside!": "博拉戈：是啊，我都不敢相信我们真的要进去了！",
+    "Paeonia: It took a lot of convincing for us to use the shuttle but I'm sure it'll be worth it!": "佩奥尼亚：我们费了好大劲才说服大家动用航天飞机，但肯定会值得的！",
+
+    //FutureText3.xml
+    "Freesia: It has been some time since Paeonia and Borago have entered the Bramble seed. I hope they are okay.": "弗里西亚：佩奥尼亚和博拉戈进入黑棘种子已经有一段时间了。希望他们平安。",
+    "Freesia: In wait of their return, I have decided to log the changes in our liquidy neighbor:": "弗里西亚：在等他们回来的这段时间，我打算记录一下我们那颗液体邻居星球的变化：",
+    "Freesia: Since the asteroid landed, the planet seems to be drifting form its ordinary orbit. the force of impact may have been strong enough that it altered its trajectory around the sun. I calculate that both planets in this system will not come into contact with one another, luckily.": "弗里西亚：小行星坠落之后，这颗行星似乎偏离了原本的轨道。撞击的冲击力可能强到改变了它绕恒星公转的轨迹。好在我计算过，这个星系里的两颗行星不会相撞。",
+    "Freesia: Ice also appears to be forming on the surface, likely because of the drastic decrease in temperature. I fear any life below the surface will die off after such an environmental shift...": "弗里西亚：行星表面开始结冰了，应该是气温骤降导致的。我担心环境剧变之后，地表下的所有生命都会消亡……",
+
+    //FutureText4.xml
+    "Freesia: I have observed something incredible atop the fully-formed ice: A house!": "弗里西亚：我在完全封冻的冰面上观察到了不可思议的东西：一座房子！",
+    "Freesia: I appears as if another intelligent lifeform has attempted to adapt to their new environment and decided to live above the ice, likely to acquire more sunlight and thus, heat.": "弗里西亚：看起来有另一种智慧生命试图适应新环境，选择住在冰面以上，应该是为了获取更多阳光、从而得到更多热量。",
+    "Freesia: I have not observed any living being directly... But perhaps none of this will matter. Borago and Paeonia have still not returned from their trip. It has been long enough for me to fear the worst. Perhaps I should talk to Protea about my discoveries, at least then we wont feel so alone...": "弗里西亚：我还没直接观测到任何活体生物……但或许这一切都不重要了。博拉戈和佩奥尼亚还是没有回来，这么久了，我已经做好了最坏的打算。或许我该把我的发现告诉普罗蒂亚，至少我们不会觉得孤单了……",
+
+    //PastRecording1.xml
+    "Bouderi: Personal recording! I may have made a discovery regarding a radioactive output from our technology.": "布德里：个人录音！我可能有了一项发现，关于我们的科技产生的辐射排放。",
+    "Bouderi: It is in its early stages but using a prototype, I was able to detect trace amounts of radiation in numerous pieces of technology!": "布德里：目前还处于初步阶段，但用一台原型机，我已经在大量设备里检测到了微量辐射！",
+    "Bouderi: I will tell Pictus first and we will look further into the cause of this, I'm sure he'll be interested.": "布德里：我先去告诉皮克图斯，我们会深入研究成因，他肯定会感兴趣的。",
+    "Bouderi: ...Personal recording number two...": "布德里：……第二次个人录音……",
+    "Bouderi: My notions were dismissed due to a lack of need or interest. Not much to do now, perhaps Vesca could use some help on the farm.": "布德里：我的想法被否决了，大家觉得没必要，也不感兴趣。现在没什么可做的了，或许维斯卡的农场需要帮忙。",
+
+    //PastRecording2.xml
+    "Vesca: Mellea, when you listen to this, can we discuss some ideas I had to expand the farm? Talk soon.": "维斯卡：梅莱亚，等你听到这段录音，我们聊聊我扩建农场的想法吧。回头见。",
+    "Vesca: Oh hey Bouderi, what's up? You look defeated...": "维斯卡：哦，布德里，怎么了？你看起来垂头丧气的……",
+    "Bouderi: Hi Vesca, I don't really want to talk about it. Did you want any help?": "布德里：嗨，维斯卡，我不想说这个。需要我帮忙吗？",
+    "Vesca: Just some daily chores, really. You can give me a hand if you want - IF you tell me what's bothering you.": "维斯卡：就是些日常杂活。你想帮忙当然可以——前提是告诉我你遇到什么烦心事了。",
+    "Bouderi: Fine... Is that still recording?": "布德里：好吧……它还在录吗？",
+
+    //PastRecording3.xml
+    "Mellea: Pictus, I hoped to discuss something with you, I hope you don't mind me recording this.": "梅莱亚：皮克图斯，我想和你商量点事，希望你不介意我录下来。",
+    "Mellea: I wanted to see if we could develop some sort of mechanical medical assistance tool to use within the dome - an extra pair of tentacles.": "梅莱亚：我想知道我们能不能研发一种机械医疗辅助工具，在穹顶里用——相当于多出来的触手。",
+    "Pictus: I don't know, Mellea. Medical emergencies are few and far between, it would take too much space and resources for something so frivolous when you can just ask one of us to help.": "皮克图斯：不好说啊，梅莱亚。医疗急救本来就很少见，这么点用处却要占这么多空间和资源，太浪费了，直接找我们帮忙不就行了。",
+    "Mellea: I thought you might say that, could I convince you if it were to double as an assembly tool? That way it would get more use. This would really help me with smaller tasks as well without bothering other's important work.": "梅莱亚：我就知道你会这么说。如果它还能兼做组装工具呢？这样利用率就高了。而且做精细活的时候也能用，不用总打扰大家的重要工作。",
+    "Pictus: I can already see you've thought a lot about this... Very well, let's discuss the designs.": "皮克图斯：看得出来你已经考虑得很周全了……好吧，我们来聊聊设计方案。",
+
+    //PastRecording4.xml
+    "Pictus: Thank you, Auricula for to fix this light on such short notice.": "皮克图斯：谢谢你，奥里库拉，这么急还来帮我修灯。",
+    "Auricula: Of course! We Chronalopods can't have our top research being hindered by darkness, can we?": "奥里库拉：这有什么！我们时足族的顶尖研究，可不能被黑暗耽误了，对吧？",
+    "Pictus: I... Did want to ask you if Bouderi was alright. He doesn't seem like himself recently but insists that he's fine...": "皮克图斯：我……其实想问问你，布德里还好吗。他最近状态不太对，但总说自己没事……",
+    "Auricula: He's just a little worn down by his theory being turned down. Not to say you were wrong in doing so-": "奥里库拉：他就是理论被否决了，有点受挫而已。我不是说你否决得不对——",
+    "Auricula: Um, is that recording?": "奥里库拉：嗯，这东西在录吗？",
+    "Pictus: Argh, malfunctioning again? I'll take it home with me this evening... Thanks again.": "皮克图斯：啊，又出故障了？我晚上把它带回去修……再次感谢。",
+
+    //PastRecording5.xml
+    "Mellea: Friends, a new species has come to visit us! Look what I have brought...": "梅莱亚：各位，有新物种造访我们了！快看我带来了什么……",
+    "Vesca: Mellea! While this is an incredible discovery, but we don't know their intentions. They could've killed you!": "维斯卡：梅莱亚！虽然这是个惊人的发现，但我们不知道他们的意图。他们可能会伤害你的！",
+    "Mellea: Worry not, Vesca! I was discreet. They've been left unable to explore our waters. Now look at this technology...": "梅莱亚：别担心，维斯卡！我很小心的。他们现在没法探索我们的水域。你们看这个科技……",
+    "Bouderi: This is beautiful... How does it all work? What is it for? Are we sure we can't talk to them?": "布德里：太精妙了……它的原理是什么？有什么用？我们真的没法和他们交流吗？",
+    "Pictus: It could be dangerous - I gather they've come from our planetary neighbour, let them return to whence they came.": "皮克图斯：可能有风险——我猜他们来自我们的邻居星球，让他们从哪来回哪去吧。",
+    "Auricula: I suppose that's it then, finally we see what we've all been dreaming of and everyone's too scared to go and say hi! Well, I've got work to do. I suspect you all do too.": "奥里库拉：所以就这么算了？我们终于见到了梦寐以求的外星生命，结果所有人都不敢去打个招呼！算了，我还有工作要做。你们也都忙去吧。",
+
+    //PastRecording6.xml
+    "Bouderi: I wish I could've known my parents, but I guess that's just the way things are for each generation...": "布德里：我多希望能了解我的父母，但或许每一代人都是这样吧……",
+    "Bouderi: We've done a lot of good for ourselves and our future children, maybe thanks to these recordings they can better know us as good role models... As parents.": "布德里：我们为自己、为后代做了这么多事，或许多亏了这些录音，他们能更了解我们，把我们当作榜样……当作父母。",
+    "Bouderi: Hopefully mine will turn out alright, when I have them...": "布德里：希望等我有了孩子，他们也能好好的……",
+
+    //PastText1.xml
+    "Sonchus: Thank you for coming, I believe you will be pleased with my discovery.": "桑克斯：感谢你能来，我想我的发现一定会让你感兴趣的。",
+    "Helenium: I still don't understand what can be so ground-breaking as to bring me all the way over here.": "赫勒纽姆：我还是不明白，到底是什么重大发现，非得把我大老远叫过来。",
+    "Sonchus: Here, I was able to take scans of the planet revealing a series of tunnels beneath the surface! It gets blurry the further down I scan but these tunnels may lead directly into the planet's core.": "桑克斯：你看，我扫描了这颗星球，发现地表下有一系列隧道！越深的地方扫描结果越模糊，但这些隧道可能直通行星核心。",
+    "Sonchus: Furthermore, I have a hypothesis that the strange seed we found may be burrowing towards to core!": "桑克斯：另外，我有个猜想：我们发现的那颗奇怪的种子，可能正在往核心的方向钻！",
+    "Helenium: Perhaps the seed needs something within it... Have you mapped out these tunnels? I would very much like to explore them.": "赫勒纽姆：或许种子需要核心里的某种东西……你绘制隧道的路线图了吗？我很想去探索一下。",
+    "Sonchus: I have, the closest route is below this mountain, but we'll still have to dig quite far. To get to the core from here you must go...North, North-West, South, South-East, West, then continue West.": "桑克斯：绘好了，最近的路线就在这座山下面，但我们还是得挖很远。从这里去核心的路线是：向北，向西北，向南，向东南，向西，然后继续向西。",
+
+    //PastText2.xml
+    "Malva: Do you really think another species snuck past us to steal our spare oxygen and staffs?": "玛尔瓦：你真的觉得有另一个物种偷偷摸过来，偷走了我们的备用氧气和手杖？",
+    "Vicia: It makes the most sense, they couldn't have just floated away...": "维西亚：这是最合理的解释，总不可能自己漂走了……",
+    "Malva: It is unsettling, I know. Perhaps we will be able to make another expedition and even meet this potentially aquatic people!": "玛尔瓦：我知道这让人不安。或许我们下次再来探险，还有机会见到这种可能是水生的智慧种族！",
+    "Vicia: I admire your optimism, Malva.": "维西亚：真佩服你的乐观，玛尔瓦。",
+
+    //PastText3.xml
+    "Thimble: This is the strange seed I found, It appears to be deeply rooted into the ground.": "辛布尔：这就是我发现的那颗奇怪的种子，看起来在地下扎得很深。",
+    "Helenium: It's like nothing I've ever seen before - and this blinding light... If only we had a camera small enough to fit inside!": "赫勒纽姆：我从没见过这种东西——还有这刺眼的光……要是有台够小的相机能伸进去就好了！",
+    "Thimble: Its branches appear to resemble that of Bramble Plants. Hypothesis; It is an evolved version of the plant we know!": "辛布尔：它的树枝看起来和黑棘类植物很像。推测：这是我们已知的黑棘类植物的进化版本！",
+    "Helenium: I suppose we will have to see what it does as it grows.": "赫勒纽姆：看来只能等它再长长，看看会发生什么了。",
+
+    //PastText4.xml
+    "Sonchus: So you want my help hiding scrolls around for a treasure hunt... For your girlfriend?": "桑克斯：所以你找我帮忙，只是为了把卷轴藏起来玩寻宝游戏……给你女朋友准备的？",
+    "Echium: It will not take long. Lanaria is very good at puzzles, I'd really appreciate the assistance, Sonchus!": "埃基乌姆：不会花很久的。拉纳里亚特别擅长解谜，桑克斯，你要是能帮忙我会非常感激的！",
+    "Sonchus: You know, usually these visits are for more important matters, like the expedition...": "桑克斯：你知道的，平时大家来找我都是为了更重要的事，比如探险……",
+    "Echium: This is certainly important to me!": "埃基乌姆：这件事对我来说非常重要！",
+
+    //TreasureHuntStart.xml
+    "Echium: Lanaria, my Dearest: for you I have devised and adventure that I believe you will be most fond of.": "埃基乌姆：我最亲爱的拉纳里亚：我为你准备了一场冒险，相信你一定会喜欢。",
+    "Lanaria: Echium? What is this, a game? I do hope it has more thought out rules this time.": "拉纳里亚：埃基乌姆？这是什么，游戏吗？希望这次的规则比上次靠谱点。",
+    "Echium: Not just any game; a Treasure Hunt! I have discreetly laid out clues around this planet to a gift you could not refuse. I wish you luck, my dearest!": "埃基乌姆：可不是普通的游戏，是寻宝游戏！我在这颗星球各处悄悄藏了线索，终点是一份你绝对无法拒绝的礼物。祝你好运，我最亲爱的！",
+    "Echium: Your first clue is: Within the pedestal upon which you belong.": "埃基乌姆：你的第一条线索是：在你脚下的基座之中。",
+
+    //SquidDialogue.xml
+    "Dome Screen": "穹顶屏幕",
+    "A- Another being... Different from those who came before. No, you shouldn't be here.": "——又一个外来者……和之前的那些不一样。不，你不该来这里。",
+    "Who are you?": "你是谁？",
+    "Why shouldn't I be here?": "为什么我不该来这里？",
+    "<color=grey>sigh</color> I am Brevipes and this is our home, until the asteroid destroyed it... Which is why you must leave.": "<color=grey>*叹气*</color> 我是布雷维佩斯，这里曾是我们的家园，直到那颗小行星毁了一切……所以你必须离开。",
+    "Wait, How come we can understand each other?": "等等，为什么我们能听懂对方的话？",
+    "What asteroid? I don't see any nearby.": "什么小行星？我没在附近看到啊。",
+    "It is likely that our languages are similar enough for our minds to fill in the gaps.": "可能是我们的语言足够相似，大脑能自动补全差异。",
+    "It is not the strangest thing I've seen.": "这已经不是我见过最奇怪的事了。",
+    "May I come in?": "我能进来吗？",
+    "Why are all these houses abandoned?": "为什么这些房子都废弃了？",
+    "What did you mean by \"Those who came before\"?": "你说的“之前的那些人”是什么意思？",
+    "I found recordings from someone named Bouderi talking about radiation.": "我找到了一个叫布德里的人的录音，提到了辐射。",
+    "I'll get going now.": "我这就走。",
+    "Not in this era, perhaps...": "或许，在这个时代不行……",
+    "We cannot open this door! It could mark our end...": "我们不能打开这扇门！这可能会招致我们的灭亡……",
+    "Our ancestors lived in them, I fear we will share their fate.": "我们的祖先曾住在里面，我怕我们会重蹈他们的覆辙。",
+    "While I am unaware of their exact whereabouts, they may have set themselves up on Sil-... Ourea's Peak.": "我不知道他们的确切下落，但他们可能在西尔瓦……乌瑞亚之峰定居了。",
+    "You're more likely to find them there.": "你去那里更有可能找到他们。",
+    "Ideas we dismissed. They were unimportant to us.": "那是个被我们否决的想法。当时我们觉得无关紧要。",
+    "Bouderi's son, Calveryi, made notes on how to build something that could help you.": "布德里的儿子卡尔维里留下了一些笔记，记录着如何制造一种对你们有帮助的装置。",
+    "I see... Perhaps we could look into this after all. Thank you.": "我明白了……或许我们终究还是得研究一下这个。谢谢你。",
+    "Do not come back.": "别再回来了。"
+  },
+
+  "ShipLogDictionary": {
+    //Kanaloa's.xml
+    "Radiation Vial": "辐射样本瓶",
+    "Radiation Notes": "辐射研究笔记",
+    "I found recordings about someone named Bouderi making a discovery that was dismissed by his peers.": "我找到了录音，一个叫布德里的人有过一项发现，却被他的同僚否决了。",
+    "I found recordings of someone named Calveryi following up on Bouderi's research.": "我找到了录音，一个叫卡尔维里的人延续了布德里的研究。",
+    "I spoke to Brevipes in the past and told him about the notes on radiation.": "我在过去时间线与布雷维佩斯交谈，告知了他辐射笔记的事。",
+    "I entered the dome in the future after speaking to Brevipes and found a vial of some sort of gas in good condition.": "与布雷维佩斯交谈后，我进入了未来时间线的穹顶，找到了一瓶保存完好的气体。",
+    "Asteroid": "小行星",
+    "There's an asteroid at the bottom of Kanaloa's Rest.": "卡纳洛阿之剩的海底有一颗小行星。",
+    "The asteroid is cracked and has a green light spilling out of it.": "小行星已经开裂，内部透出绿色的光。",
+    "It seems that some villagers that were sent into the past tried to create a device to reverse the asteroid's effects, but failed": "似乎一些被送回过去的村民曾试图制造装置来逆转小行星的影响，但失败了。",
+    "Assembly Table": "组装台",
+    "The vial looks like it can fit on the table.": "样本瓶似乎可以放置在这张台上。",
+    "The heart looks like it can fit on the table.": "核心似乎可以放置在这张台上。",
+    "The crystal looks like it can fit on the table.": "水晶似乎可以放置在这张台上。",
+    "I found recordings about a table used for both assembly and medical purposes.": "我找到了录音，提到了一张兼具组装与医疗功能的工作台。",
+    "I found a table with mechanical assistance tools.": "我找到了一张配有机械辅助工具的工作台。",
+    "Dome": "穹顶",
+    "There's a large dome near one of the villages": "其中一座村庄附近有一座巨大的穹顶。",
+    "There's a large dome near an underwater village.": "一座水下村庄附近有一座巨大的穹顶。",
+    "The door is locked but a screen beside it allows me to speak to a village inhabitant named \"Brevipes\"": "门处于锁定状态，但旁边的屏幕可以让我与一位名叫“布雷维佩斯”的村民对话。",
+    "Brevipes seemed paranoid of sharing the same fate of their ancestors.": "布雷维佩斯似乎十分害怕重蹈祖先的覆辙。",
+    "Brevipes mentioned an asteroid but I can't see any nearby.": "布雷维佩斯提到了一颗小行星，但我在附近并未发现。",
+    "I was able to enter the dome in the future through a hole in the glass but there's no sign of life inside.": "我通过玻璃上的破洞进入了未来时间线的穹顶，但内部没有任何生命迹象。",
+    "Underwater Villages": "水下村庄",
+    "There might be something in the water that the Nomai never saw": "水下似乎藏着挪麦人从未发现的事物。",
+    "There are villages under the water on Kanaloa's Depths.": "卡纳洛阿之深的水下分布着多座村庄。",
+    "I found a recording talking about malfunctioning technology, the species that lived here are called \"Chronalopods\".": "我找到了一段关于设备故障的录音，居住在此的种族名为“时足族”。",
+    "I found a recording talking about some village inhabitants stealing equipment from a few Nomai that landed on one of the largest islands.": "我找到了一段录音，提到村民偷走了几位降落在最大岛屿上的挪麦人的设备。",
+    "Kanaloa's Surface": "卡纳洛阿的地表",
+    "The surface appears to be made up of floating rock islands.": "星球表面由多座漂浮的岩石岛屿组成。",
+    "I found Nomai text on a large island talking about wanting to explore underwater, before their equipment disappeared.": "我在一座大岛上找到了挪麦人的文字。他们在设备失踪前曾计划探索水下区域。",
+    "I found a nursery building semisubmerged within the water.": "我发现了一座半浸在水中的育儿建筑。",
+
+    //Peaks.xml
+    "Purified Crystal": "净化的水晶",
+    "Planet Core": "行星核心",
+    "The bramble seed might be reaching to the core.": "黑棘种子可能正在钻向行星核心。",
+    "I followed directions from a Nomai who scanned the planet and made it into the core.": "我按照一位扫描过星球的挪麦人标注的路线，进入了行星的核心。",
+    "Inside the core was a glowing, pink crystal. I might be able to use this to assemble a device and dampen the asteroid's effects.": "核心内部有几块发光的粉色水晶。我或许能用它组装一台装置，抑制小行星的影响。",
+    "Treasure Hunt": "寻宝游戏",
+    "I found Nomai recording talking about some sort of treasure hunt": "我找到了挪麦人的录音，提到了一场寻宝游戏。",
+    "The first clue was: \"Behind the pedestal upon which you belong\". ": "第一条线索是：“在你脚下的基座之中。”",
+    "I found a clue that says \"Beyond our mountain, which I would happily move for you.\"": "我找到了一条线索：“山之彼端，我愿为你移山赴险。”",
+    "I found a clue that says \"Behind Sonchus' plant, that breathes life into the world as you do into mine.\"": "我找到了一条线索：“黄色的花朵旁，它为世界赋予生机，正如你点亮我的生命。”",
+    "I found a clue that says \"In the wall by the stairs - hidden, unlike my love for you.\"": "我找到了一条线索：“楼梯旁的墙后——藏于此处，却藏不住我对你的爱意。”",
+    "I found a clue that says \"Somewhere within our shuttle, which will warp us high into the stars that shine in your eyes.\"": "我找到了一条线索：“藏在我们的航天飞机里，它将载我们去往群星，正如你眼中的熠熠星光。”",
+    "I found a final clue that says \"And now, take this scroll and traverse to the bottom of the twin flat peaks to retrieve your prize.\"": "我找到了最终线索：“最后，带上这卷卷轴，前往双平顶山底，寻获你的奖赏。”",
+    "I found the vault with text that said to place the scroll into the door.": "我找到了宝库，门上的文字提示需将卷轴放入门中。",
+    "Malleable Heart": "塑形核心",
+    "I followed clues left from a treasure hunt that led me to a vault.": "我循着寻宝游戏留下的线索，找到了一座宝库。",
+    "Inside the vault was a heart that seems similar to the projection goop the Nomai used in my star system. I might be able to bring this to the future to assemble a device and dampen the asteroid's effects.": "宝库中有一颗核心，与我家乡星系挪麦人使用的投影液性质相似。我或许可以将它带到未来，组装装置以抑制小行星的影响。",
+    "Underground Tunnels": "地下隧道",
+    "I found writing from a Nomai who discovered tunnels deep underground": "我找到了一位挪麦人的记录，他发现了地下深处的隧道。",
+    "These tunnels are said to lead to the planet's core.": "据说这些隧道直通行星核心。",
+    "There was also directions for the tunnels to the core: North, NorthWest, South, SouthEast, West, and continue West.": "记录中还标注了通往核心的隧道方向：北、西北、南、东南、西，继续向西。",
+    "Bramble Seed": "黑棘种子",
+    "The bramble could be following underground tunnels.": "黑棘种子可能正沿着地下隧道蔓延。",
+    "I found a Dark Bramble seed on Ourea's Peak, the Nomai here seemed unaware of its origins.": "我在乌瑞亚之峰发现了一颗黑棘种子，这里的挪麦人似乎并不知晓它的来历。",
+    "The Nomai discovered that the bramble seed was deeply rooted into the ground and reaching towards the planet's core.": "挪麦人发现，这颗黑棘种子在地下扎根极深，正朝着行星核心的方向生长。",
+    "I found writing in the future talking about an expedition into the bramble seed.": "我找到了未来时间线的文字，提到了一次进入黑棘种子的探险行动。",
+    "I found the Nomai shuttle inside the seed, I don't see any signs of living Nomai.": "我在种子内部找到了挪麦航天飞机，但未发现任何存活的挪麦人踪迹。",
+    "Ernesto": "厄内斯托",
+    "I found Ernesto, the Magic Talking Anglerfish, in the bramble seed. He doesn't want me to interrupt his staring.": "我在黑棘种子里遇到了厄内斯托，那只会说话的魔法安康鱼。他不想让我打扰他发呆。",
+    "Ernesto says flying out of his bramble seed will take me where I need to go, and flying into the seed below him will take me back to the start.": "厄内斯托说，从他所在的黑棘种子飞出去就能到达目的地，飞入他下方的种子则能回到起点。",
+    "I interrupted his staring and now we're not friends anymore ::(.": "我打扰了他发呆，现在我们绝交了。::(",
+    "Nomai Camps": "挪麦营地",
+    "I found various Nomai buildings scattered across Ourea's Peak.": "乌瑞亚之峰上散落着各式各样的挪麦建筑。",
+    "I found a Nomai scroll next to a small Bramble Seed, they wondered what could be inside.": "我在一颗小黑棘种子旁找到了挪麦卷轴，他们很好奇内部有什么。",
+    "I found writings from two Nomai theorizing about being stolen from by another species.": "我找到了两位挪麦人的记录，他们猜测自己的物品被另一个物种偷走了。",
+
+    //The Blazing Sea.xml
+    "Time Fluctuations": "时间波动",
+    "-These fluctuations may be related to the glowing asteroid.": "-这些波动可能与那颗发光的小行星有关。",
+    "-Half way through the loop, I felt the effects of the Ash-Twin Project - I was pulled into the future!": "-循环进行到一半时，我感受到了灰烬双星计划的效应——我被拉到了未来！",
+    "-The future is very different, most notably: \"Kanaloa's Rest\" has frozen over and \"Silvanus' Peak\" is overgrown and has a very large Bramble Node on the surface.": "-未来的景象截然不同，最显著的变化是：“卡纳洛阿之剩”完全封冻，“西尔瓦努斯之峰”植被疯长，地表还有一个巨大的黑棘节点。",
+    "-After the star exploded, I was sent all the back to the past. it seems I'm going to spend half of each loop in the past, and he other half in the future!": "-恒星爆炸后，我被送回了过去。看来每个循环我都会有一半时间在过去，一半时间在未来！",
+    "-I found recordings from future Chronolapods, some of them were from Brevipes but I spoke to him in the past, how is that possible?": "-我找到了未来的时足族留下的录音，其中一部分来自布雷维佩斯。但我是在过去时间线与他交谈的，这怎么可能呢？"
+  }
+}
