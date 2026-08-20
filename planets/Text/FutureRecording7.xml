@@ -6,7 +6,7 @@
         <Name>Start</Name>
         <EntryCondition>DEFAULT</EntryCondition>
         <Dialogue>
-            <Page>Brevipes: ...It is only me, Polytricha and calveryi left. After they got ill, the other's disappeared one day, without a trace.</Page>
+            <Page>Brevipes: ...It is only me, Polytricha and Calveryi left. After they got ill, the other's disappeared one day, without a trace.</Page>
         </Dialogue>
         <SetPersistentCondition>FutureRecording</SetPersistentCondition>
         <DialogueTarget>1</DialogueTarget>

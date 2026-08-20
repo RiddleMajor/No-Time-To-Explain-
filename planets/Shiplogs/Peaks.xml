@@ -57,7 +57,7 @@
         </ExploreFact>
         <ExploreFact>
             <ID>VaultSpotted</ID>
-            <Text>I found the vault with text that said to place the scroll into the door.</Text>
+            <Text>I found some kind of vault.</Text>
         </ExploreFact>
     </Entry>
 
@@ -144,7 +144,7 @@
         <Curiosity>Asteroid</Curiosity>
         <ExploreFact>
             <ID>CampsSpotted</ID>
-            <Text>I found various Nomai buildings scattered across Ourea's Peak.</Text>
+            <Text>I found various Nomai buildings scattered across Ourea's Peak. Two on the ground, one on the cliffside of a mountain, and one on the top of a mountain.</Text>
         </ExploreFact>
         <ExploreFact>
             <ID>SeedWritings</ID>

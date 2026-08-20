@@ -39,7 +39,8 @@
         "spriteFolder": "planets/Images",
         "mapMode": {
             "scale": 4,
-            "revealedSprite": "BlazingSea1-removebg-preview"
+            "revealedSprite": "BlazingSea1-removebg-preview.png",
+            "outlineSprite": "BlazingSea1-removebg-preview.png"
         }
     }
 }

@@ -16,7 +16,7 @@
         "spriteFolder": "planets/Images",
         "mapMode": {
             "scale": 4,
-            "revealedSprite": "BlazingSea2-removebg-preview"
+            "revealedSprite": "BlazingSea2-removebg-preview.png"
         }
     },
     "Star": {
